@@ -36,7 +36,7 @@
 					<span class="icon-bar"></span>
 	            	<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="index.html"><span class="logo">*LP</span> &ndash; Per la Pública</a>
+				<a class="brand" href="index.html"><span class="logo" style="margin-right: 1em">*LP</span> Per la Pública</a>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li><a href="carta.html">Carta de presentació</a></li>

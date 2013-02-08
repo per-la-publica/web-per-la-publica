@@ -24,6 +24,11 @@ body {
     padding-top: 25px;
 } 
 
+.logo-container {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
 /* Base class
 ------------------------- */
 .jumbotron {
