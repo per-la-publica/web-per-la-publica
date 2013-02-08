@@ -4,9 +4,10 @@
 	</div> <!-- /.row-fluid -->
 	<?php endif; ?>
 
-	<div class="container">
-		<footer></footer>
-	</div>
+	<footer class="footer" style="margin-top: 2em">
+		<div class="container">
+		</div>
+	</footer>
 	
 <script type="text/javascript">
   var _gaq = _gaq || [];

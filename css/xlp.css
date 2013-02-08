@@ -13,6 +13,17 @@ body {
 	text-decoration: underline;
 }
 
+.logo {
+    color: #DD4814;
+    font-weight: bold;
+    font-family: "DejaVu Sans", Verdana, sans-serif;
+}
+
+.aside {
+    font-size: 75px;
+    padding-top: 25px;
+} 
+
 /* Base class
 ------------------------- */
 .jumbotron {
