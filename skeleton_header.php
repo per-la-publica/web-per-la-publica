@@ -10,8 +10,8 @@
     <meta charset="utf-8">
     <title>Per la Pública</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Per la pública">
-    <meta name="author" content="Per la pública">
+    <meta name="description" content="Per la Pública">
+    <meta name="author" content="Per la Pública">
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!--<script src="js/jquery.1.8.2.js"></script>-->
@@ -36,7 +36,7 @@
 					<span class="icon-bar"></span>
 	            	<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="index.html"><span class="logo">*LP</span> &ndash; Per la pública</a>
+				<a class="brand" href="index.html"><span class="logo">*LP</span> &ndash; Per la Pública</a>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li><a href="carta.html">Carta de presentació</a></li>
