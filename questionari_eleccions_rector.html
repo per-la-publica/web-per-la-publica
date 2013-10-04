@@ -1,0 +1,94 @@
+<?php	
+$titol = 'Questionari per als candidats a rector/a';
+require('skeleton_header.php'); 
+?>
+<div class="row">
+<div class="span2 logo-container">
+    <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
+</div>
+<div class="span8">
+    <p class="lead">Estem elaborant un qüestionari que volem enviar als candidats a rector/a de la UPC. Hem obert un 
+    <a href="https://comunitat.perlapublica.org/groups/profile/2125/eleccions-a-rector-o-rectora-2013">grup de treball dins la Comunitat</a>
+    per discutir i recollir altres preguntes que puguin ser interessants. 
+    Podeu participar en el grup o enviar-nos les vostres propostes <a href="/contacta.html">per qualsevol via</a>.</p>
+    <p class="lead">Tot seguit mostrem algunes de les preguntes que hem recopilat fins ara:</p>
+
+<hr/>
+
+<ul class="q">
+<li>Quines motivacions té per presentar-se a Rector precisament en aquests moments?</li>
+</ul>
+
+<h2>POLÍTICA UNIVERSITÀRIA</h2>
+<ul class="q">
+<li>Com defineix la Universitat Pública? Com defensarà i potenciarà aquest model?</li>
+<li>Creu que s’ha de canviar el model de governança actual? Quins canvis caldria fer?</li>
+<li>Quina és la seva visió sobre el mapa de titulacions a Catalunya? I a la UPC?</li>
+</ul>
+
+<h2>EQUIP I ORGANITZACIÓ</h2>
+<ul class="q">
+<li>Quants vicerrectors formaran el seu Equip? Ens pot avançar els noms?</li>
+<li>Com serà l’estructura de Gerència? Que farà amb els 20 càrrecs aproximats de confiança 
+actuals (vicegerents, directors d’àrea, adjunts,...) de l’anterior equip de Govern?</li>
+</ul>
+
+<h2>SITUACIÓ ECONÒMICA</h2>
+<ul class="q">
+<li>Quines mesures té previstes aplicar per resoldre el dèficit actual de la UPC?</li>
+<li>La Generalitat ha anunciat una reducció del finançament de les universitats d’entre 
+el 10 i el 17%. Amb quins criteris aplicarà aquesta reducció al pressupost?</li>
+<li>Quina és la seva opinió respecte del Pla de Viabilitat Econòmica 2011-2014?</li>
+</ul>
+
+<h2>INSTITUCIÓ</h2>
+<ul class="q">
+<li>Què opina del model de les UTG?</li>
+<li>Quina opinió té sobre el CSUC i UPCnet?</li>
+<li>Quant a les indicacions dels informes de la Sindicatura de Comptes, quines 
+mesures prendrà?</li>
+<li>Com veu el futur del Grup UPC? (CIT-UPC, Parc UPC, b_TEC, FPC, &hellip;)</li>
+</ul>
+
+<h2>TRANSPARÈNCIA I RESPONSABILITAT</h2>
+<ul class="q">
+<li>Com millorarà la transparència a la UPC?</li>
+<li>Té pensat fomentar el Govern Obert?</li>
+</ul>
+
+<h2>TREBALLADORS UPC</h2>
+<ul class="q">
+<li>Què en pensa de la pèrdua de drets laborals què han patit els treballadors de 
+les universitats públiques els darrers anys (augment de jornada, pèrdua de dies 
+de lliure disposició, conciliació familiar, &hellip;)? Creu que la universitat pot 
+prendre mesures per recuperar aquests drets, i així millorar la motivació i la 
+implicació dels seus treballadors?</li>
+<li>Quina és la seva posició respecte Personal interí i personal temporal?</li>
+</ul>
+
+<hr/>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'perlapublica'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+</div>
+</div>
+
+<script type="text/javascript">
+    $('ul.q').css({'list-style-type':'decimal', 'margin-left':'2em'});
+    $('ul.q li').css({'font-size':'14pt','margin-left':'2em'});
+</script>
+
+<?php require('skeleton_footer.php'); ?>
