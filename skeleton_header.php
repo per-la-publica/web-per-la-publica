@@ -17,6 +17,7 @@
     <!--<script src="js/jquery.1.8.2.js"></script>-->
     <script src="js/bootstrap.js"></script>
 
+    <link href='//fonts.googleapis.com/css?family=Varela+Round|Cookie' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/xlp.css" rel="stylesheet">
@@ -36,7 +37,7 @@
 					<span class="icon-bar"></span>
 	            	<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="index.html"><span class="logo">*LP</span> Per la Pública</a>
+				<a class="brand" href="index.html" style="font-family: Cookie, sans-serif;font-size: 20pt"><span class="logo">*LP</span> Per la Pública</a>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li><a href="carta.html">Carta de presentació</a></li>
