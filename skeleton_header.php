@@ -1,11 +1,11 @@
+<!DOCTYPE html>
+<html lang="ca">
 <?php
 /*
  * Aquest fitxer mostra la capçalera de la pàgina. Requereix de les següents variables globals.
  *  - $paginaPrincipal(boolean): indica si es tracta de la pàgina principal
  */
 ?>
-<!DOCTYPE html>
-<html lang="ca">
 <head>
     <meta charset="utf-8">
     <title>Per la Pública</title>
