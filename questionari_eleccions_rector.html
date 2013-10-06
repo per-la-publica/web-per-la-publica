@@ -96,7 +96,7 @@ implicació dels seus treballadors?</li>
         } else {
             var anterior = $(this).prevUntil('ol.q').prev();
             var startAnterior = parseInt($(anterior).attr('start'));
-            var fillsAnterior = $(olAnterior).children('li').length;
+            var fillsAnterior = $(anterior).children('li').length;
             $(this).attr('start', startAnterior + fillsAnterior);
         }
     });
