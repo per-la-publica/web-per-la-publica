@@ -1,6 +1,6 @@
 	<?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
 			</div> <!-- /.page-content -->
-		</div> <!-- /.col-md-10 -->
+		</div> <!-- /.col-md-* -->
 	</div> <!-- /.row -->
 	<?php endif; ?>
 

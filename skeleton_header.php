@@ -57,9 +57,6 @@
 		<div class="jumbotron subhead" id="overview">
   			<div class="container">
 				<h1><?php echo $titol; ?></h1>
-				<?php if (!empty($subtitol)) : ?>
-					<p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
-				<?php endif; ?>
 			</div>
 		</div>
 	<?php endif; ?>
@@ -67,11 +64,10 @@
 <?php 
 /*
 	<div class="xarxes-socials"><?php require_once('skeleton_xarxes_socials.php'); ?></div>
-	
 */	
 ?>
 	<?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
 	<div class="row">		
-		<div class="col-md-offset-1 col-md-10">		
+		<div class="col-lg-offset-1 col-lg-11">
 			<div class="page-content">
 	<?php endif; ?>
