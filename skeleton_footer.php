@@ -1,7 +1,7 @@
 	<?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
 			</div> <!-- /.page-content -->
-		</div> <!-- /.span10 -->
-	</div> <!-- /.row-fluid -->
+		</div> <!-- /.col-md-10 -->
+	</div> <!-- /.row -->
 	<?php endif; ?>
 
 	<footer class="footer" style="margin-top: 2em">
