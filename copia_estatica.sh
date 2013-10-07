@@ -5,5 +5,5 @@ wget --recursive --page-requisites --relative http://xlp
 
 # Pàgines que s'han de generar explícitament perquè no hi ha
 # cap enllaç a elles.
-wget --recursive --page-requisites --relative http://xlp/questionari_eleccions_rector.html
+#wget --recursive --page-requisites --relative http://xlp/questionari_eleccions_rector.html
 
