@@ -2,7 +2,6 @@
 $titol = 'Questionari per als candidats a rector/a';
 require('skeleton_header.php'); 
 ?>
-<div class="row">
 <div class="col-md-2 logo-container">
     <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
 </div>
@@ -85,11 +84,9 @@ implicació dels seus treballadors?</li>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
 </div>
-</div>
 
 <script type="text/javascript">
-    $('ol.q').css({'margin-left':'2em'});
-    $('ol.q li').css({'font-size':'14pt','margin-left':'2em'});
+    $('h2').css('font-size','140%');
     $('ol.q').each(function(idx){
         if (idx == 0) { 
             $(this).attr('start', 1); 

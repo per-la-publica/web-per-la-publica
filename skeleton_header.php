@@ -45,7 +45,6 @@
 			<li><a href="manifest.html">Manifest</a></li>
 			<li><a href="funcionament.html">Funcionament</a></li>
 			<li><a href="membres_claustre.html">Representants al Claustre</a></li>
-			<?php /* <li><a href="accions.html">Accions</a></li> */ ?>
 			<?php /*<li><a href="participa.html">Participa</a></li>*/ ?>
 			<li><a href="contacta.html">Contacta</a></li>          
 		  </ul>
@@ -67,7 +66,7 @@
 */	
 ?>
 	<?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
-	<div class="row">		
-		<div class="col-lg-offset-1 col-lg-11">
-			<div class="page-content">
+        <div class="container">
+       	    <div class="row">		
+        		<div class="col-md-12">
 	<?php endif; ?>
