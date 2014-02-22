@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
-    <link href="//fonts.googleapis.com/css?family=Varela+Round|Cookie" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Varela+Round|Montserrat" rel="stylesheet" type="text/css">
     <link href="css/xlp.css" rel="stylesheet">
-		
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,19 +36,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" style="font-family: Cookie, sans-serif;font-size: 20pt"><span class="logo">*LP</span> Per la Pública</a>
+          <a class="navbar-brand" href="index.html" style="font-family: Montserrat, sans-serif;font-size: 10pt"><span class="logo">*LP</span> Per la Pública</a>
         </div>
         <div class="collapse navbar-collapse">
+        <nav>
           <ul class="nav navbar-nav">
-			<li><a href="carta.html">Carta de presentació</a></li>
-			<li><a href="ideari.html">Ideari</a></li>
-			<li><a href="manifest.html">Manifest</a></li>
-			<li><a href="funcionament.html">Funcionament</a></li>
-			<li><a href="membres_claustre.html">Representants al Claustre</a></li>
+			<li><a href="carta.html" title="Carta de presentació">Presentació</a></li>
+			<li><a href="ideari.html" title="El nostre ideari">Ideari</a></li>
+			<li><a href="manifest.html" title="El Manifest de Per la Pública">Manifest</a></li>
+			<li><a href="funcionament.html" title="La nostra manera de fer">Funcionament</a></li>
+			<li><a href="membres_claustre.html" title="Grup de treball del Claustre">Claustre</a></li>
+			<li><a href="activitat.html" title="Agenda d'activitats i actes de les reunions">Activitat</a><li>
 			<?php /*<li><a href="participa.html">Participa</a></li>*/ ?>
-			<li><a href="contacta.html">Contacta</a></li>          
+			<li><a href="contacta.html" title="Posa't en contacte amb nosaltres">Contacta</a></li>          
 		  </ul>
         </div><!--/.nav-collapse -->
+        </nav>
       </div>
     </div>
 
