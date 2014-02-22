@@ -1,0 +1,32 @@
+<?php	
+$titol = 'Manifest';
+require('skeleton_header.php'); 
+?>
+
+<div class="col-md-2 logo-container">
+    <p class="logo aside">*LP</p>
+</div>
+<div class="col-md-8">
+<h2>Activitats</h2>
+
+    <p>Aquí podeu consultar les actes de les nostres reunions i assemblees,
+       així com l'agenda de les properes trobades, per si hi voleu assistir.</p>
+       
+    <h3>Agenda</h3>
+    
+    <p>Actualment no hi ha cap reunió programada.</p>
+    
+    <h3>Actes</h3>
+
+    <ul id="actes">
+	<li><a href="https://docs.google.com/document/d/1uRZAAs-_PlncvC6_mJak7WfJ8QefVIjEe5UPXXKumeo/edit?usp=sharing">Reunió 19-02-2014</a></li>
+	<li><a href="https://docs.google.com/document/d/1CE8Z0Gswdl-V5l4M6WZXYxu2Hb_eF_iPpsqmM7620Wo/edit?usp=sharing">Assemblea 14-02-2014</a></li>
+    </ul>
+
+</div>
+
+<script type="text/javascript">
+    $('#actes li').css("line-height","2em");
+</script>
+
+<?php require('skeleton_footer.php'); ?>
