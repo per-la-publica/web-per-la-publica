@@ -46,7 +46,7 @@
 			<li><a href="manifest.html" title="El Manifest de Per la Pública">Manifest</a></li>
 			<li><a href="funcionament.html" title="La nostra manera de fer">Funcionament</a></li>
 			<li><a href="membres_claustre.html" title="Grup de treball del Claustre">Claustre</a></li>
-			<li><a href="activitat.html" title="Agenda d'activitats i actes de les reunions">Activitat</a></li>
+			<li><a href="activitat.html" title="Agenda d'activitats">Activitats</a></li>
 			<?php /*<li><a href="participa.html">Participa</a></li>*/ ?>
 			<li><a href="contacta.html" title="Posa't en contacte amb nosaltres">Contacta</a></li>          
 		  </ul>
