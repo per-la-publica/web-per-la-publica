@@ -14,8 +14,27 @@ require('skeleton_header.php');
        per si hi voleu assistir.</p>
        
     <h3>Agenda</h3>
+    
+    <button href="#" id="showHelp" class="btn btn-default" style="margin-bottom: 1.5em">
+    	<span class="glyphicon glyphicon-hand-right"></span> Subscriviu-vos
+    </button>
+    
+    <div id="help" style="display:none" class="panel panel-info">
+    	<div class="panel-heading">Subscriure's al calendari de Per la Pública</div>
+    	<div class="panel-body">
+	    <ul>
+		    <li>Si feu servir Google Calendar, us podeu subscriure al calendari "upc.per.la.publica@gmail.com"</li>
+		    <li>Si feu servir una aplicació de gestió de calendaris que suporti el format iCal, cal que hi
+		        afegiu <a href="https://www.google.com/calendar/ical/upc.per.la.publica%40gmail.com/public/basic.ics">l'adreça iCal</a>
+		        en la vostra aplicació.
+		    <li>Si feu servir un agregador RSS, us podeu subscriure al 
+		        <a href="https://www.google.com/calendar/feeds/upc.per.la.publica%40gmail.com/public/basic">canal RSS</a>.</li>
+		    <li>Una altra opció és afegir als favorits del vostre navegador l'<a href="https://www.google.com/calendar/embed?src=upc.per.la.publica%40gmail.com&ctz=Europe/Madrid">enllaç al calendari en format web</a>.</li>
+		</ul>
+		</div>
+	</div>
 
-    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=upc.per.la.publica%40gmail.com&amp;showTitle=0&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="700" height="400" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=upc.per.la.publica%40gmail.com&amp;showTitle=0&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="730" height="500" frameborder="0" scrolling="no"></iframe>
 
     <h3>Butlletins</h3>
 
@@ -46,7 +65,14 @@ require('skeleton_header.php');
 </div>
 
 <script type="text/javascript">
-    $('#butlletins li').css("line-height","2em");
+	$(function() {
+	    $('#butlletins li').css("line-height","2em");
+	    $('#showHelp').click(function() {
+	    	$('#showHelp').hide();
+	    	$('#help').fadeIn();
+	    });
+	    
+	});
 </script>
 
 <?php require('skeleton_footer.php'); ?>
