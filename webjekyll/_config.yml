@@ -1,0 +1,12 @@
+# Site settings
+title: Per la pública
+email: upc-per-la-publica@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Per la Pública bla, bla, bla, bla.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://perlapublica.org" # the base hostname & protocol for your site
+twitter_username: perlapublica
+github_username: per-la-publica
+
+# Build settings
+markdown: kramdown
