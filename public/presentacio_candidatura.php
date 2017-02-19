@@ -7,7 +7,7 @@ require('skeleton_header.php');
     <p class="logo aside">*LP</p>
 </div>
 <div class="col-md-8">
-<p class="lead">Som un grup de <a href="/membres_candidatura.html">persones</a> 
+<p class="lead">Som un grup de <a href="/membres_candidatura.php">persones</a> 
 de la UPC compromeses amb la Universitat Pública, 
 persones que volem defensar la seva qualitat i els seus valors davant les agressions que està patint.</p>
 

@@ -2,18 +2,6 @@
 	$paginaPrincipal = true;
 	require('skeleton_header.php');
 ?>
-<style>
-    .jumbotron {
-        text-align:left;
-    }
-    #punts {
-        height: auto;
-    }
-    #punts li {
-        font-size: 26px;
-        line-height: 1.25;
-    }
-</style>
 
 <div class="jumbotron masthead">
     <div class="container">
@@ -27,7 +15,7 @@
         <p class="lead">Som un grup de persones de la comunitat UPC compromeses amb la universitat pública
 	       i que volem defensar la seva qualitat i els seus valors.</p>
 
-		<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.html">representants al Claustre</a>, al Consell
+		<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.php">representants al Claustre</a>, al Consell
                de Govern i al Consell Social de la UPC. Volem fer sentir la vostra veu!</p>
 
             <?php
@@ -39,7 +27,7 @@
              */
             ?>
 
-		<p><a href="ideari.html" class="btn btn-primary btn-lg" role="button">Consulta el nostre ideari &raquo;</a></p>
+		<p><a href="ideari.php" class="btn btn-primary btn-lg" role="button">Consulta el nostre ideari &raquo;</a></p>
 
       	</div>
 
@@ -57,7 +45,6 @@
             </script>
         </div>
     </div>
-</div>
 </div>
 
 <?php require('skeleton_footer.php'); ?>

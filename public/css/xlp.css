@@ -75,6 +75,19 @@ p, li {
   text-align: left; 
 }
 
+.jumbotron {
+  text-align:left;
+}
+
+#punts {
+  height: auto;
+}
+
+#punts li {
+  font-size: 26px;
+  line-height: 1.25;
+}
+
 .jumbotron p {
   font-size: 26px;
   font-weight: 300;
