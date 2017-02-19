@@ -1,0 +1,101 @@
+<?php
+$titol = 'Activitats';
+require('skeleton_header.php');
+?>
+
+<div class="col-md-2 logo-container">
+    <p class="logo aside">*LP</p>
+</div>
+<div class="col-md-8">
+    <h2>Activitats</h2>
+
+    <p>Aquí podeu consultar el registre dels nostres butlletins setmanals,
+       així com l'agenda de les properes trobades i activitats,
+       per si hi voleu assistir.</p>
+
+    <h3>Agenda</h3>
+
+    <button href="#" id="showHelp" class="btn btn-default" style="margin-bottom: 1.5em">
+    	<span class="glyphicon glyphicon-hand-right"></span> Subscriviu-vos
+    </button>
+
+    <div id="help" style="display:none" class="panel panel-info">
+    	<div class="panel-heading">Subscriure's al calendari de Per la Pública</div>
+    	<div class="panel-body">
+        <ul>
+            <li>Si feu servir Google Calendar, us podeu subscriure al calendari "upc.per.la.publica@gmail.com"</li>
+		    <li>Si feu servir una aplicació de gestió de calendaris que suporti el format iCal, cal que hi
+		        afegiu <a href="https://www.google.com/calendar/ical/upc.per.la.publica%40gmail.com/public/basic.ics">l'adreça iCal</a>
+		        en la vostra aplicació.
+		    <li>Si feu servir un agregador RSS, us podeu subscriure al
+		        <a href="https://www.google.com/calendar/feeds/upc.per.la.publica%40gmail.com/public/basic">canal RSS</a>.</li>
+		    <li>Una altra opció és afegir als favorits del vostre navegador l'<a href="https://www.google.com/calendar/embed?src=upc.per.la.publica%40gmail.com&ctz=Europe/Madrid">enllaç al calendari en format web</a>.</li>
+		    </ul>
+		</div>
+	</div>
+
+    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=upc.per.la.publica%40gmail.com&amp;showTitle=0&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="730" height="500" frameborder="0" scrolling="no"></iframe>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Butlletins</h3>
+
+            <ul id="butlletins">
+                <li><a href="https://docs.google.com/document/d/1izdIcgU2qE65cYuuPRUiVx-kb8iGNmCktq-NcgcBvmA/edit?usp=sharing">Setmana 07/07/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1O3768JXZowI7xLh1c6paQ0zNex5D6BSvJgltFWBmWwo/edit?usp=sharing">Setmana 30/06/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1KDi5pATjOYkEqo2xhBbj05JQocrvi2vbyDHjjqpDCpY/edit?usp=sharing">Setmana 23/06/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1nwj04jL1dGRa1yrmU0cnir5n260jUbTBlNoSbyNoSoM/edit?usp=sharing">Setmana 16/06/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1_2b7rNcWMNiQHEtLwB_KarpX1_A2JKtx1sxfB8t863U/edit?usp=sharing">Setmana 09/06/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/17wa4kZcXwG1kaGCPhBlR_DpFaWvY1YZkBTSntb7kgVU/edit?usp=sharing">Setmana 26/05/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1PDv_PpoS18xE2paJKpM1Ym9W_dM1_F-iA8OcWZvwj2g/edit?usp=sharing">Setmana 19/05/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1b3FjNjkIo9FxdP4gGRbB4-DU_hR1bD8BzehIPbhEG0A/edit?usp=sharing">Setmana 12/05/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1HbZxudpYwKVROARL9ywX-Z7dLqwNg-8s4z21ZlIM5Sc/edit?usp=sharing">Setmana 05/05/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1hXV03HiyzUKQbWDuBFul2EHZiJIluuzHK7MxApMYHsQ/edit?usp=sharing">Setmana 28/04/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/18_meYURgnIkxFuEdMacnqMk3khD3nWUFCHn1Sdf9vTc/edit?usp=sharing">Setmana 21/04/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1mk-bGGPGsj1cjdp9BX3ca4J-RxMWlvdLQzA18GK0Whg/edit?usp=sharing">Setmana 31/03/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1Yg11vpGmEGB_peU573vvpxprPpKnjADixQmJtVOeT3c/edit?usp=sharing">Setmana 24/03/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1rcnHoMwvwAosS8S9em4-60TUEHIULuEuJ-5np_e4dwE/edit?usp=sharing">Setmana 17/03/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1J_x8dE5d4gKq0lzebswECggKkS9DfI5NBPDtwmndeo0/edit?usp=sharing">Setmana 10/03/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/196C8J7irAkBTiLADdRHTWPefvs2J7sUGCA-5GdHGJKs/edit?usp=sharing">Setmana 03/03/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1oqpxkeFPwPYVJGf-qJFkqxwW81JkoYlOatwcVb0BWVc/edit?usp=sharing">Setmana 24/02/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1zQlFoRS1nRG_7sIWq0DIyEuJdHFwbLtD-9HpmiNzarY/edit?usp=sharing">Setmana 17/02/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1ngvnM8uuibzqIaCnr23g2-df8hWw4XoZH3B7npgGlP8/edit?usp=sharing">Setmana 10/02/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1Dy9j9NutdmR6IKZmlYoksZ3ZoWOCnHqmrn1SPHeuwE0/edit?usp=sharing">Setmana 03/02/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1Vbj_HWEJvfSUY5xEJYQ39navlBcRfirm5t4T4dEMY_E/edit?usp=sharing">Setmana 27/01/2014</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h3>Actes reunions</h3>
+            <ul id="reunions">
+                <li><a href="https://docs.google.com/document/d/1UXl-D_TrSLdKyJt7kXXdNPQd3i2WF_r-UcFIuDRgB_4/edit?usp=sharing">Reunió 05/06/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1Rd44PnyQR-pxVk2hS73IZZxiSc0mK2wjSbkHsj3bXcg/edit?usp=sharing">Reunió 08/05/2014</a></li>
+                <li><a href="https://docs.google.com/document/d/1ii4U5hGdLnrvrFK1kuwH9XPhK-Kgd7ct3X50pqjuZw4/edit?usp=sharing">Reunió 27/03/2014</a></li>
+            </ul>
+        </div>
+    </div>
+	<h3>Altres accions</h3>
+
+	<h4>Novembre 2013</h4>
+	<p>Durant les eleccions a Rector, vam enviar un <a href="doc/questionari_rectorables.pdf" title="Qüestionari per als candidats a rector">qüestionari als candidats</a>
+	   i vam publicar les seves respostes:</p>
+    <ul>
+        <li><a href="doc/respostes_candidats/elias.pdf" title="Respostes d'Antoni Elias">Antoni Elias</a></li>
+        <li><a href="doc/respostes_candidats/fossas.pdf" title="Respostes d'Enric Fossas">Enric Fossas</a></li>
+        <li><a href="doc/respostes_candidats/junyent.pdf" title="Respostes de Gabriel Junyent">Gabriel Junyent</a></li>
+        <li><a href="doc/respostes_candidats/perez.pdf" title="Respostes de Juan Jesús Pérez">Juan Jesús Pérez</a></li>
+    </ul>
+
+</div>
+
+<script type="text/javascript">
+	$(function() {
+	    $('#butlletins li').css("line-height","2em");
+	    $('#showHelp').click(function() {
+	    	$('#showHelp').hide();
+	    	$('#help').fadeIn();
+	    });
+
+	});
+</script>
+
+<?php require('skeleton_footer.php'); ?>

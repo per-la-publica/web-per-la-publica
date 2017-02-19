@@ -1,0 +1,50 @@
+<?php	
+$titol = 'La <em>teva</em> Candidatura al Claustre';
+require('skeleton_header.php'); 
+?>
+
+<div class="col-md-2 logo-container">
+    <p class="logo aside">*LP</p>
+</div>
+<div class="col-md-8">
+<p class="lead">Som un grup de <a href="/membres_candidatura.php">persones</a> 
+de la UPC compromeses amb la Universitat Pública, 
+persones que volem defensar la seva qualitat i els seus valors davant les agressions que està patint.</p>
+
+<p>Pensem que les coses es poden fer d’una altra manera 
+i creiem que es poden fer <strong>amb la participació de tothom</strong>. Volem una universitat 
+oberta, participativa, autònoma, transparent i responsable.</p>
+
+<p>Per això hem decidit presentar-nos a les eleccions al Claustre <strong>d’una manera 
+diferent</strong>: volem que tota la comunitat participi i decideixi, i volem portar
+l'opinió de la comunitat als òrgans de govern de la UPC.</p> 
+
+<p>La <a href="http://comunitat.perlapublica.org/">Comunitat</a>
+és l’eina que permetrà que tota la comunitat opini, participi i decideixi. 
+Una xarxa social per facilitar la col·laboració i garantir que tothom sigui 
+escoltat. Una eina per <strong>aportar idees i sumar esforços</strong>.</p>
+
+<p>Aquesta eina ens permetrà crear discussions i debats, assemblees virtuals, 
+grups de treball&hellip; Les opinions i les decisions que es prenguin les 
+traslladarem de manera directa al Claustre. Ens comprometem a ser els portaveus 
+d’allò que la comunitat haurà consensuat i decidit. <strong>Volem donar veu a la 
+comunitat dins el Claustre</strong>.</p>
+
+<p>I per què és important el Claustre? <em>«El Claustre Universitari és el màxim 
+òrgan de representació de la comunitat universitària i d’expressió de la posició 
+i les aspiracions d'aquesta».</em> És al Claustre on hem de dir el que la comunitat 
+pensa. Del Claustre surten els nostres representants al Consell de Govern, 
+on es decideixen les normatives i polítiques de la UPC.</p>
+
+<p>Les eleccions al Claustre són cada 4 anys: <strong>no deixis passar l'oportunitat</strong>.</p>
+
+<p>Volem aportar el nostre granet de sorra en la reconstrucció de la Universitat Pública 
+en la qual creiem. Si tu també hi creus, si vols participar dels canvis i les decisions 
+de la UPC, vota’ns. Si ningú no et representa&hellip; nosaltres som la teva opció. 
+Votar-nos és votar-te a tu mateix.</p>
+
+<p class="lead">Participa! Nosaltres farem arribar la teva veu al Claustre.</p>
+
+</div>
+
+<?php require('skeleton_footer.php'); ?>

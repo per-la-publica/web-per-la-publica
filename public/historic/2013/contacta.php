@@ -1,0 +1,19 @@
+<?php
+$titol='Contacta';
+require('skeleton_header.php');
+?>
+
+<div class="col-md-2 logo-container">
+    <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
+</div>
+<div class="col-md-8">
+
+<p>Per posar-vos en contacte amb <span class="xlp">Per la Pública</span> podeu escriure a
+l'adreça de correu electrònic <span class="email">upc.per.la.publica(@)gmail.com</span>
+o fer servir el formulari següent:</p>
+
+<iframe width="100%" height="670" allowtransparency="true" frameborder="0" src="https://docs.google.com/spreadsheet/embeddedform?authuser=0&bc=transparent&f=%2522Verdana%2522%252C%2522Helvetica%2522%252C%2522Arial%2522%252C%2Bsans-serif&formkey=dDgtNDkyU2M4aFJzXzVLWkRnX28tWUE6MQ&hl=ca&htc=%2523666666&lc=%25230000cc&pli=1&tc=%2523666666&ttl=0">
+</iframe>
+</div>
+
+<?php require('skeleton_footer.php'); ?>
