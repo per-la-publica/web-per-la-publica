@@ -13,10 +13,10 @@
     <meta name="description" content="Per la Pública">
     <meta name="author" content="Per la Pública">
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link href="//fonts.googleapis.com/css?family=Varela+Round|Montserrat" rel="stylesheet" type="text/css">
     <link href="css/xlp.css" rel="stylesheet">
@@ -44,10 +44,10 @@
             <li><a href="carta.php" title="Carta de presentació">Presentació</a></li>
             <li><a href="ideari.php" title="El nostre ideari">Ideari</a></li>
             <li><a href="manifest.php" title="El Manifest de Per la Pública">Manifest</a></li>
-            <?php /*<li><a href="funcionament.php" title="La nostra manera de fer">Funcionament</a></li>*/ ?>
+            <li><a href="funcionament.php" title="La nostra manera de fer">Funcionament</a></li>
             <li><a href="membres_claustre.php" title="Grup de treball del Claustre">Claustre</a></li>
             <li><a href="activitat.php" title="Agenda d'activitats">Activitats</a></li>
-            <?php /*<li><a href="participa.php">Participa</a></li>*/ ?>
+            <li><a href="participa.php">Participa</a></li>
             <li><a href="contacta.php" title="Posa't en contacte amb nosaltres">Contacta</a></li>
           </ul>
         </nav>
@@ -70,6 +70,10 @@
 ?>
     <?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
         <div class="container">
+			<div class="alert alert-warning">
+				<p>Estàs veient l'històric de la web. <a href="../../">Tornar a la web actual</a>.</p>
+			</div>
+
             <div class="row">
                 <div class="col-md-12">
     <?php endif; ?>

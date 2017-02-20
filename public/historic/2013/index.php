@@ -11,6 +11,10 @@
 <div class="container">
     <div class="row" style="padding-top: 3em">
         <div class="col-md-8">
+        
+        <div class="alert alert-warning">
+			<p>Estàs veient l'històric de la web. <a href="../../">Tornar a la web actual</a>.</p>
+		</div>
 
         <p class="lead">Som un grup de persones de la comunitat UPC compromeses amb la universitat pública
 	       i que volem defensar la seva qualitat i els seus valors.</p>
