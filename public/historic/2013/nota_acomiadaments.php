@@ -2,7 +2,7 @@
 $titol = 'Sobre els acomiadaments';
 require('skeleton_header.php'); 
 ?>
-<div class="col-md-2 logo-container">
+<div class="col-md-2 logo-container hidden-md hidden-xs hidden-sm">
     <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
 </div>
 <div class="col-md-8">

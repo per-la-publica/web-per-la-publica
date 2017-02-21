@@ -3,7 +3,7 @@ $titol = 'La <em>teva</em> Candidatura al Claustre';
 require('skeleton_header.php'); 
 ?>
 
-<div class="col-md-2 logo-container">
+<div class="col-md-2 logo-container hidden-md hidden-xs hidden-sm">
     <p class="logo aside">*LP</p>
 </div>
 <div class="col-md-8">
