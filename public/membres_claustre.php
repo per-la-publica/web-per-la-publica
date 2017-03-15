@@ -12,14 +12,16 @@
 	<div class="col-md-4 dades">
 		<div class="nom">Àngel Aguilera</div>
 		<div class="info">
-			<p>PAS-L. <abbr title="Escola Tècnica Superior d'Enginyeria de Camins, Canals i Ports de Barcelona">ETSECCPB</abbr>.</p>
+			<p>PAS-L. <abbr title="UTG àmbit Camins">UTGAC</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003328">Directori</a></p>
 		</div>
+		<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+		 -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/carbajo_sandra.jpg" alt="Foto Sandra Carbajo"></div>
@@ -31,69 +33,115 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113219">Directori</a></p>
 		</div>
+		<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+		 -->
 	</div>
 </div>
 
 <div class="row persona">
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/castillo_toni.png" alt="Foto Toni Castillo"></div>
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/sonia_celades.jpg" alt="Foto Sònia Celades"></div>
 	<div class="col-md-4 dades">
-		<div class="nom">Toni Castillo</div>
+		<div class="nom">Sònia Celades</div>
 		<div class="info">
-			<p>PAS-L. <abbr title="Departament de Fisica Aplicada">FA</abbr>.</p>
+			<p>PAS-F. <abbr title="UTG àmbit Eng. Industrial de Barcelona">UTGAEIB</abbr>.</p>
 		</div>
 		<div class="contacte">
-			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003581">Directori</a></p>
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004244">Directori</a></p>
 		</div>
-	</div>
-
-    <div class="col-md-2 foto"><img src="/img/fotos_membres/escobar_joan.jpg" alt="Foto Joan Escobar"></div>
-    <div class="col-md-4 dades">
-        <div class="nom">Joan Escobar</div>
-        <div class="info">
-            <p>PAS-L. <abbr title="Departament d'Arquitectura de Computadors">AC</abbr>.</p>
-        </div>
-        <div class="contacte">
-            <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002054">Directori</a></p>
-        </div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
-    </div>
+ -->
+	</div>
+
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/claros_marta.jpg" alt="Foto Marta Clarós"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Marta Clarós</div>
+		<div class="info">
+			<p>PAS-F. <abbr title="UTG àmbit Eng. Industrial de Barcelona">UTGAEIB</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003143">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+	</div>
 </div>
 
 <div class="row persona">
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/florencio_antoni.jpg" alt="Foto Antoni Florencio"></div>
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/darnell_isabel.jpg" alt="Foto Isabel Darnell"></div>
 	<div class="col-md-4 dades">
-		<div class="nom">Antoni Florencio</div>
+		<div class="nom">Isabel Darnell</div>
 		<div class="info">
-			<p>PAS-F. <abbr title="Gabinet de Projectes Específics">GPE</abbr>.</p>
+			<p>PAS-L. <abbr title="Àrea TIC">ATIC</abbr>.</p>
 		</div>
 		<div class="contacte">
-			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003446">Directori</a></p>
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003773">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
+	</div>
+
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/garcia_francesc.jpg" alt="Foto Francesc Garcia"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Francesc Garcia</div>
+		<div class="info">
+			<p>PAS-L. <abbr title="UTG Campus Terrassa">UTGCT</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002964">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+	</div>
+</div>
+
+<div class="row persona">
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/david_gener.jpg" alt="Foto David Gener"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">David Gener</div>
+		<div class="info">
+			<p>PAS-F. <abbr title="Servei de Biblioteques, Public. i Arxius">SBPA</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113439">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/gimeno_patricia.jpg" alt="Foto Patricia Gimeno"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">Patricia Gimeno</div>
 		<div class="info">
-			<p>PAS-F. <abbr title="Escola Tècnica Superior d'Enginyeria Industrial de Barcelona">ETSEIB</abbr>.</p>
+			<p>PAS-F. <abbr title="UTG Campus Diagonal-Besòs">UTGCDB</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003699">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
 </div>
-
 
 <div class="row persona">
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/gomez_jose_enrique.jpg" alt="Foto José Enrique Gómez"></div>
@@ -129,9 +177,45 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003547">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
+	</div>
+
+    <div class="col-md-2 foto"><img src="/img/fotos_membres/mellado_alba.jpg" alt="Foto Alba Mellado"></div>
+    <div class="col-md-4 dades">
+        <div class="nom">Alba Mellado</div>
+        <div class="info">
+            <p>PAS-F. <abbr title="UTG Campus Diagonal-Besòs">UTGCDB</abbr>.</p>
+        </div>
+        <div class="contacte">
+            <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1103370">Directori</a></p>
+        </div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+    </div>
+</div>
+
+<div class="row persona">
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/maite_moreno.png" alt="Foto Maite Moreno"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Maite Moreno</div>
+		<div class="info">
+			<p>PAS-F. <abbr title="UTG Campus Diagonal-Besòs">UTGCDB</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004050">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
 	</div>
 
     <div class="col-md-2 foto"><img src="/img/fotos_membres/morillas_francisco.jpg" alt="Foto Francisco Morillas"></div>
@@ -143,27 +227,15 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003105">Directori</a></p>
         </div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
     </div>
 </div>
 
 <div class="row persona">
-
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/mostazo_mari_carmen.jpg" alt="Foto Mari Carmen Mostazo"></div>
-	<div class="col-md-4 dades">
-		<div class="nom">Mari Carmen Mostazo</div>
-		<div class="info">
-			<p>PAS-F. <abbr title="Escola Tècnica Superior d'Enginyeria de Camins, Canals i Ports de Barcelona">ETSECCPB</abbr>.</p>
-		</div>
-		<div class="contacte">
-			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003582">Directori</a></p>
-		</div>
-		<div class="label label-success">
-			Claustral
-		</div>
-	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/muntada_alex.jpg" alt="Foto Alex Muntada"></div>
 	<div class="col-md-4 dades">
@@ -174,25 +246,81 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003281">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
+
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/murcia_franc.jpg" alt="Foto Franc Murcia"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Franc Murcia</div>
+		<div class="info">
+			<p>PAS-F. <abbr title="Gabinet Planificació, Aval. i Qualitat">GPAQ</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002152">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+	</div>
+
 </div>
 
 <div class="row persona">
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/ortin_david.jpg" alt="Foto David Ortin"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">David Ortin</div>
+		<div class="info">
+			<p>PAS-L. <abbr title="UTG àmbit Camins">UTGAC</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004077">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+	</div>
+
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/prat_susana.jpg" alt="Foto Susana Prat"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">Susana Prat</div>
 		<div class="info">
-            <p>PAS-F. <abbr title="Escola Tècnica Superior d'Enginyeria de Telecomunicacions de Barcelona">ETSETB</abbr>.</p>
+            <p>PAS-F. <abbr title="UTG Campus Diagonal-Besòs ">UTGCDB</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003015">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
+	</div>
+
+</div>
+
+<div class="row persona">
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/rodriguez_gloria.jpeg" alt="Foto Gloria Rodriguez"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Gloria Rodriguez</div>
+		<div class="info">
+            <p>PAS-L. <abbr title="Escola Tècnica Superior d'Enginyeria de Telecomunicacions de Barcelona">ETSETB</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1047355">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/rodriguez_carlos.jpg" alt="Foto Carlos Rodriguez"></div>
@@ -204,26 +332,49 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003471">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
 </div>
 
 <div class="row persona">
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/rubio_oscar.png" alt="Foto Oscar Rubio"></div>
+	<div class="col-md-4 dades">
+		<div class="nom">Oscar Rubio</div>
+		<div class="info">
+            <p>PAS-F. <abbr title="UTG àmbit Camins">UTGAC</abbr>.</p>
+		</div>
+		<div class="contacte">
+			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004059">Directori</a></p>
+		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
+	</div>
+
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/sanchez_nuria.jpg" alt="Foto Nuria Sanchez"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">Nuria Sanchez</div>
 		<div class="info">
-            <p>PAS-F. <abbr title="Escola Tècnica Superior d'Enginyeria Industrial de Barcelona">ETSEIB</abbr>.</p>
+            <p>PAS-F. <abbr title="UTG Campus del Baix Llobregat">UTGBL</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113215">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
+</div>
+
+<div class="row persona">
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/tallon_carme.png" alt="Foto Carme Tallón"></div>
 	<div class="col-md-4 dades">
@@ -234,26 +385,31 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002334">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
-</div>
 
-<div class="row persona">
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/teixido_oriol.jpg" alt="Foto Oriol Teixidó"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">Oriol Teixidó</div>
 		<div class="info">
-            <p>PAS-L. <abbr title="Escola Tècnica Superior d'Enginyeria de Camins, Canals i Ports de Barcelona">ETSECCPB</abbr>.</p>
+			<p>PAS-L. <abbr title="UTG àmbit Camins">UTGAC</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003257">Directori</a></p>
 		</div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
 	</div>
+</div>
+
+<div class="row persona">
 
     <div class="col-md-2 foto"><img src="/img/fotos_membres/verdugo_fernando.jpg" alt="Foto Fernando Verdugo"></div>
     <div class="col-md-4 dades">
@@ -264,10 +420,13 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003789">Directori</a></p>
         </div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
     </div>
+    
 </div>
 
 <hr>
