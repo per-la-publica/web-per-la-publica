@@ -42,7 +42,7 @@
 </div>
 
 <div class="row persona">
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/sonia_celades.jpg" alt="Foto Sònia Celades"></div>
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/celades_sonia.png" alt="Foto Sònia Celades"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">Sònia Celades</div>
 		<div class="info">
@@ -110,7 +110,7 @@
 </div>
 
 <div class="row persona">
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/david_gener.jpg" alt="Foto David Gener"></div>
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/gener_david.jpg" alt="Foto David Gener"></div>
 	<div class="col-md-4 dades">
 		<div class="nom">David Gener</div>
 		<div class="info">
