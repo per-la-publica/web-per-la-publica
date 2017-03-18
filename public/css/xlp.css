@@ -10,6 +10,12 @@ h1 {
     font-size: 72pt;
 }
 
+/* fix perquè els anchors funcionin amb navbar fixada */
+.myanchor > :first-child { 
+	margin-top: -60px;
+	padding-top: 60px;
+}
+
 p, li {
     line-height: 1.8em;
 }
