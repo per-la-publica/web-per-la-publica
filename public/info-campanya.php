@@ -26,7 +26,7 @@ require('skeleton_header.php');
 	d’un total de 31 membres electes del PAS al CU.</p>
 
 	<p>No va ser fins l’abril de 2013 que es va convocar la primera reunió del nou CU. En aquella primera reunió, 
-	2 de nosaltres vam ser escollits com a representants del PAS al Consell de Govern (CG), d’un total de 4 
+	dos de nosaltres vam ser escollits com a representants del PAS al Consell de Govern (CG), d’un total de quatre 
 	representants. Un de nosaltres va ocupar la representació del PAS a la Mesa del Claustre, i una de nosaltres 
 	seria després escollida representant del CG al Consell Social (CS).</p>
 
@@ -39,7 +39,7 @@ require('skeleton_header.php');
 	que no hem perdut sinó que ens ha ajudat a entendre com funcionen els òrgans de govern de la UPC.
 	
 	<p>Ara som uns quants més: a aquestes eleccions ens hi presentem 25 persones! I ara amb molta més experiència 
-	i coneixement, dels darrers 4 anys. I també amb molta més il·lusió, què ens donen els nous membres.</p>
+	i coneixement, dels darrers quatre anys. I també amb molta més il·lusió, què ens donen els nous membres.</p>
 	</section>
 	
 	<section id="perque-al-claustre" class="myanchor">
@@ -51,7 +51,7 @@ require('skeleton_header.php');
 	<blockquote>«El Claustre Universitari és el màxim òrgan de representació de la comunitat universitària i 
 	d’expressió de la posició i les aspiracions d’aquesta.»</blockquote>
 
-	<p>El Claustre és, per tant, és on podem portar la opinió de la comunitat, de tots nosaltres. 
+	<p>El Claustre, per tant, és on podem portar la opinió de la comunitat, de tots nosaltres. 
 	És un òrgan de representació, però entre els seus membres s’escull en Consell de Govern, el principal 
 	òrgan de govern de la Universitat, que discuteix i aprova les polítiques de Consell de Direcció 
 	(equip rectoral i gerència).</p>
@@ -92,8 +92,8 @@ require('skeleton_header.php');
 	<section id="objectiu" class="myanchor">
 	<h2>Quin és el nostre objectiu?</h2>
 	
-	<p>Volem continuar representants a les nostres companyes i companys als òrgans de govern de la nostra Universitat, la UPC. 
-	Volem portat la opinió de tots nosaltres cap a dalt, des de baix.</p>
+	<p>Volem continuar representant a les nostres companyes i companys als òrgans de govern de la nostra Universitat, la UPC. 
+	Volem portar la opinió de tots nosaltres cap a dalt, des de baix.</p>
 
 	<p>Volem continuar insistint i empenyent en la defensa de la Universitat Pública, i amb els valors del 
 	nostre ideari: compromís social, participació, transparència, responsabilitat.</p>
