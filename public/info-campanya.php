@@ -18,8 +18,6 @@ require('skeleton_header.php');
 		</ul>
 	</nav>
 
-	<article>
-
 	<section id="passat-present-futur" class="myanchor">
 	<h2>Passat, present i futur</h2>
 
@@ -104,7 +102,9 @@ require('skeleton_header.php');
 	universitària, estudiants i treballadors.</p>
 
 	</section>
-
+	
+</div>
+<div class="col-md-12">
 	<section id="timeline" class="myanchor">
 	<h2>Línia de temps</h2>
 
@@ -114,10 +114,7 @@ require('skeleton_header.php');
     </iframe>
 	
 	</section>
-	
-	</article>
-	
-</div>
 
+</div>
 
 <?php require('skeleton_footer.php'); ?>
