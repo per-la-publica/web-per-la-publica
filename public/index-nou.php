@@ -18,11 +18,11 @@
 				<h1 class="panel-title">Ens presentem a les eleccions al Claustre Universitari 2017!</h1>
 			</div>
 			<div class="panel-body bg-info">
-				<p><a role="button" class="btn btn-primary" href="info-campanya.php">Perquè ens tornem a presentar?</a></p>
+				<p><a role="button" class="btn btn-success btn-lg" href="info-campanya.php">
+					<span class="glyphicon glyphicon-hand-right"></span> Perquè ens tornem a presentar?</a></p>
 				
-				(NOTA: aqui aniria el vídeo que ha fet l'Oriol)
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Fm0sToWtatw?ecver=2" allowfullscreen></iframe>
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b1ytykhilaQ?ecver=2" allowfullscreen></iframe>
 				</div>
 				
 			</div>
