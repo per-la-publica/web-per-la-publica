@@ -7,13 +7,20 @@ require('skeleton_header.php');
     <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
 </div>
 <div class="col-md-8">
-<p class="lead">Som un grup de persones de la comunitat de la Universitat Politècnica de Catalunya compromeses amb la universitat pública i que volem defensar la seva qualitat i els seus valors enfront de la situació d’amenaça que estem vivint.</p>
+<p class="lead">Som un grup de persones de la comunitat de la Universitat Politècnica de Catalunya 
+compromeses amb la universitat pública, disposats a defensar la seva qualitat i els seus valors</p>
 
-<p>Patim una crisi econòmica que afecta a tota la societat d’uns anys ençà. Tenim també  una altra crisi no menys important: una crisi de valors que ha fet deixar de banda les virtuts d’un model universitari públic. En un temps en què les restriccions econòmiques són l'excusa perfecta per deixar de banda els programes electorals, privatitzar i augmentar la precarietat del sector públic.</p>
+<p>Tot i que ja no se’n parla tant de la crisi econòmica com fa uns anys, el Sistema Universitari 
+Públic i el seu model segueix patint restriccions econòmiques i precarietat.</p>
 
-<p>Nosaltres pensem que les coses es poden fer d’una altra manera i estem disposats a aplicar-la, començant per exigir-nos a nosaltres mateixos allò que exigirem als altres: autonomia, participació, transparència i responsabilitat en les nostres decisions i accions.  Volem aportar el nostre granet de sorra en la reconstrucció de la Universitat Pública en la que creiem.</p>
+<p>Nosaltres pensem que les coses es poden fer d’una altra manera i estem disposats a aplicar-la, 
+començant per exigir-nos a nosaltres mateixos allò que exigirem als altres: autonomia, participació, 
+transparència i responsabilitat en les nostres decisions i accions. Volem aportar el nostre granet 
+de sorra en la valorització i defensa de la Universitat Pública en la que creiem.</p>
 
-<p>I ho volem fer escoltant, dialogant i negociant sense dividir ni enfrontar els diferents col·lectius que formem part de la Universitat. No només per la Universitat en sí mateixa, sinó per a tota la societat en conjunt. Amb tothom i per a tothom.</p>
+<p>I ho volem fer escoltant, dialogant i negociant sense dividir ni enfrontar els diferents col·lectius 
+que formem part de la Universitat. No només per la Universitat en sí mateixa, sinó per a tota la societat 
+en conjunt. Amb tothom i per a tothom.</p>
 
 <p><strong>Volem&hellip;</strong><p>
 <ul class="unstyled">
@@ -27,9 +34,10 @@ require('skeleton_header.php');
 <li>&hellip; que cada membre de la comunitat es responsabilitzi de les seves decisions i accions.</li>
 </ul>
 
-<p>Ens comprometem a treballar per aquests valors en el nostre dia a dia, al nostre lloc de treball i als òrgans de govern, representació i consulta de la universitat.</p>
+<p>Ens comprometem a treballar per aquests valors en el nostre dia a dia, al nostre lloc de treball i 
+als òrgans de govern, representació i consulta de la universitat.</p>
 
-<p>Barcelona, gener de 2013</p>
+<p>Barcelona, març de 2017</p>
 </div>
 
 
