@@ -35,7 +35,7 @@ require('skeleton_header.php');
 	<p>Bé, i unes quantes (moltes) més, a les tardes i als vespres, després de la feina, per discutir i preparar 
 	les reunions, intervencions, documents...</p>
 	
-	<p>Ho hem fet sempre seguint el nostre ideari. Sempre amb molta entrega. Al principi amb molta il·lusió, 
+	<p>Ho hem fet sempre seguint el <strong>nostre ideari</strong>. Sempre amb molta entrega. Al principi amb molta il·lusió, 
 	que no hem perdut sinó que ens ha ajudat a entendre com funcionen els òrgans de govern de la UPC.
 	
 	<p>Ara som uns quants més: a aquestes eleccions ens hi presentem 25 persones! I ara amb molta més experiència 
@@ -51,7 +51,7 @@ require('skeleton_header.php');
 	<blockquote>«El Claustre Universitari és el màxim òrgan de representació de la comunitat universitària i 
 	d’expressió de la posició i les aspiracions d’aquesta.»</blockquote>
 
-	<p>El Claustre, per tant, és on podem portar la opinió de la comunitat, de tots nosaltres. 
+	<p>El Claustre, per tant, és on podem portar la <strong>opinió de la comunitat</strong>, de tots nosaltres. 
 	És un òrgan de representació, però entre els seus membres s’escull en Consell de Govern, el principal 
 	òrgan de govern de la Universitat, que discuteix i aprova les polítiques de Consell de Direcció 
 	(equip rectoral i gerència).</p>
@@ -75,45 +75,52 @@ require('skeleton_header.php');
 	<h2>Què hem fet al Claustre?</h2>
 
 	<p>El nostre paper principal al Claustre, i a la resta d’òrgans de Govern en què hem participat, ha estat 
-	mirar de portar la opinió del PAS, sempre dins les directrius del nostre ideari, en defensa de la Universitat Pública.</p>
+	mirar de portar <strong>la opinió del PAS</strong>, sempre dins les directrius del nostre ideari, en defensa 
+	de la Universitat Pública.</p>
 
 	<p>Aquests anys hem mirat de recollir de diverses maneres la opinió de tothom. Algunes vegades de manera directa, 
 	d’altres de manera indirecta. Algunes vegades amb més èxit, d’altres amb menys.</p>
 
-	<p>Hem estat defensant la transparència, la responsabilitat, l’autonomia i la implicació de la Universitat 
+	<p>Hem estat defensant la <strong>transparència</strong>, la responsabilitat, l’autonomia i la implicació de la Universitat 
 	en la societat. Ho hem fet amb les nostres intervencions, tant al Claustre com al Consell de Govern i al 
 	Consell Social, però també amb accions concretes.</p>
 
 	<p>Alguns exemples són la inclusió del personal de biblioteques al cens electoral dels centres, el debat 
 	i posicionament de la UPC respecte als tractats de lliure comerç, o l’adopció de formats electrònics oberts.</p>
 
+	<p>També al Claustre s’hi han discutit temes importants que van més enllà de la pròpia acadèmia, com el suport a 
+	la campanya BDS contra l’Estat d’Israel, i el rebuig als esmentats tractats de lliure comerç, TTIP i CETA.</p>
+	
 	</section>	
 
 	<section id="objectiu" class="myanchor">
 	<h2>Quin és el nostre objectiu?</h2>
 	
 	<p>Volem continuar representant a les nostres companyes i companys als òrgans de govern de la nostra Universitat, la UPC. 
-	Volem portar la opinió de tots nosaltres cap a dalt, des de baix.</p>
+	Volem portar la opinió de tots nosaltres <strong>cap a dalt, des de baix</strong>.</p>
 
-	<p>Volem continuar insistint i empenyent en la defensa de la Universitat Pública, i amb els valors del 
+	<p>Volem continuar insistint i empenyent en la defensa de la <strong>Universitat Pública</strong>, i amb els valors del 
 	nostre ideari: compromís social, participació, transparència, responsabilitat.</p>
 
 	<p>Creiem que entre tots podem aconseguir una Universitat millor per a la societat i per a la comunitat 
-	universitària, estudiants i treballadors.</p>
+	universitària, <strong>estudiants i treballadors</strong>.</p>
 
+	<p class="lead"><strong>Per tot això us tornem a demanar el vostre vot</strong></p>
+	
 	</section>
 	
-</div>
-<div class="col-md-12">
 	<section id="timeline" class="myanchor">
 	<h2>Línia de temps</h2>
+		<p>Si hi trobes a faltar res, envia'ns un correu amb la teva proposta a 
+		<a href="mailto:upc.per.la.publica@gmail.com">upc.per.la.publica@gmail.com</a>.</p>
+	</section>
 
+</div>
+<div class="col-md-12">
 
 	<iframe width="100%" height="715" src="campanya-2017/timeline.html" frameborder="0" allowfullscreen>
         <p>Your browser does not support iframes.</p>
     </iframe>
-	
-	</section>
 
 </div>
 

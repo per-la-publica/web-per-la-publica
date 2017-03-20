@@ -16,6 +16,10 @@ h1 {
 	padding-top: 60px;
 }
 
+.myanchor {
+	margin-top: 35px;
+}
+
 p, li {
     line-height: 1.8em;
 }
