@@ -13,38 +13,36 @@
 
         <div class="col-md-8">
 
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h1 class="panel-title">Ens presentem a les eleccions al Claustre Universitari 2017!</h1>
-			</div>
-			<div class="panel-body bg-info">
-				<p><a role="button" class="btn btn-success btn-lg" href="info-campanya.php">
-					<span class="glyphicon glyphicon-hand-right"></span> Perquè ens tornem a presentar?</a></p>
-				
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b1ytykhilaQ?ecver=2" allowfullscreen></iframe>
+	        <p class="lead">Som un grup de persones de la comunitat UPC compromeses amb la universitat pública
+		       i que volem defensar la seva qualitat i els seus valors.</p>
+	
+			<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.php">representants al Claustre</a>, al Consell
+	               de Govern i al Consell Social de la UPC. Volem fer sentir la vostra veu!</p>
+	
+			<div class="panel panel-info">
+				<div class="panel-heading clearfix">
+					<div class="pull-left lead">Ens presentem a les eleccions al Claustre Universitari 2017!</div>
+					<div class="pull-right"><a role="button" class="float-right btn btn-success btn-sm" href="info-campanya.php">+ informació</a></div>
 				</div>
-				
+				<div class="panel-body bg-info">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b1ytykhilaQ?ecver=2" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
-		</div>
-
-        <p class="lead">Som un grup de persones de la comunitat UPC compromeses amb la universitat pública
-	       i que volem defensar la seva qualitat i els seus valors.</p>
-
-		<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.php">representants al Claustre</a>, al Consell
-               de Govern i al Consell Social de la UPC. Volem fer sentir la vostra veu!</p>
-
-            <?php
-            /*
-             <p class="lead">Us esperem a la <a href="https://comunitat.perlapublica.org/">Comunitat</a>.
-               Podeu fer les vostres aportacions al
-               <a href="https://comunitat.perlapublica.org/groups/profile/81/lp">grup «<abbr title="Per la pública">*LP</abbr>»</a>,
-               el grup obert dins la Comunitat on podeu comentar amb nosaltres tot allò que considereu important.</p>
-             */
-            ?>
-
-		<p><a href="ideari.php" class="btn btn-primary btn-lg" role="button">Consulta el nostre ideari &raquo;</a></p>
-
+	
+	            <?php
+	            /*
+	             <p class="lead">Us esperem a la <a href="https://comunitat.perlapublica.org/">Comunitat</a>.
+	               Podeu fer les vostres aportacions al
+	               <a href="https://comunitat.perlapublica.org/groups/profile/81/lp">grup «<abbr title="Per la pública">*LP</abbr>»</a>,
+	               el grup obert dins la Comunitat on podeu comentar amb nosaltres tot allò que considereu important.</p>
+	             */
+	            ?>
+	
+			<p style="margin-bottom: 50px"><a href="ideari.php" class="btn btn-primary btn-lg" role="button">Consulta el nostre ideari &raquo;</a>
+			<a href="info-campanya.php" class="btn btn-success btn-lg" role="button">Informació de campanya &raquo;</a></p>
+	
       	</div>
 
         <div class="col-md-3">
