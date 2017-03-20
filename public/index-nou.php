@@ -41,7 +41,9 @@
 	            ?>
 	
 			<p style="margin-bottom: 50px"><a href="ideari.php" class="btn btn-primary btn-lg" role="button">Consulta el nostre ideari &raquo;</a>
-			<a href="info-campanya.php" class="btn btn-success btn-lg" role="button">Informació de campanya &raquo;</a></p>
+			<a href="info-campanya.php" class="btn btn-success btn-lg" role="button">Informació de campanya <span class="glyphicon glyphicon-info-sign"></span></a>
+			<a href="timeline.php" class="btn btn-info btn-lg" role="button">Línia temporal <span class="glyphicon glyphicon-blackboard"></span></a>
+			</p>
 	
       	</div>
 

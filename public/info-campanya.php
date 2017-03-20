@@ -14,7 +14,6 @@ require('skeleton_header.php');
 			<li><a href="#perque-al-claustre">Perquè al Claustre?</a></li>
 			<li><a href="#que-hem-fet">Què hem fet al Claustre?</a></li>
 			<li><a href="#objectiu">Quin és el nostre objectiu</a></li>
-			<li><a href="#timeline">Línia de temps</a></li>
 		</ul>
 	</nav>
 
@@ -108,19 +107,6 @@ require('skeleton_header.php');
 	<p class="lead"><strong>Per tot això us tornem a demanar el vostre vot</strong></p>
 	
 	</section>
-	
-	<section id="timeline" class="myanchor">
-	<h2>Línia de temps</h2>
-		<p>Si hi trobes a faltar res, envia'ns un correu amb la teva proposta a 
-		<a href="mailto:upc.per.la.publica@gmail.com">upc.per.la.publica@gmail.com</a>.</p>
-	</section>
-
-</div>
-<div class="col-md-12">
-
-	<iframe width="100%" height="715" src="campanya-2017/timeline.html" frameborder="0" allowfullscreen>
-        <p>Your browser does not support iframes.</p>
-    </iframe>
 
 </div>
 
