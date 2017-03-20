@@ -26,7 +26,7 @@
 				</div>
 				<div class="panel-body bg-info">
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b1ytykhilaQ?ecver=2" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TsKAQbZHcsM?ecver=2" allowfullscreen></iframe>						
 					</div>
 				</div>
 			</div>
