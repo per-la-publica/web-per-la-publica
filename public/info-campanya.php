@@ -87,9 +87,6 @@ require('skeleton_header.php');
 	<p>Alguns exemples són la inclusió del personal de biblioteques al cens electoral dels centres, el debat 
 	i posicionament de la UPC respecte als tractats de lliure comerç, o l’adopció de formats electrònics oberts.</p>
 
-	<p>També al Claustre s’hi han discutit temes importants que van més enllà de la pròpia acadèmia, com el suport a 
-	la campanya BDS contra l’Estat d’Israel, i el rebuig als esmentats tractats de lliure comerç, TTIP i CETA.</p>
-
 	<p>També al Claustre s’hi han discutit temes importants que van més enllà de la pròpia acadèmia, com el debat 
 	i posicionament de la UPC respecte  el suport a la <a href="http://www.bds.cat/">Campanya BDS</a> moviment 
 	internacional de Boicot, Desinversions i Sancions (BDS) contra Israel o el rebuig als tractats de 
