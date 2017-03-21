@@ -48,7 +48,7 @@
             <li><a href="membres_claustre.php" title="Grup de treball del Claustre">Claustre</a></li>
             <li><a href="activitat.php" title="Agenda d'activitats">Activitats</a></li>
             <?php /*<li><a href="participa.php">Participa</a></li>*/ ?>
-            <li><a href="timeline.php" title="Línia temporal">Línia temporal</a></li>
+            <li><a href="timeline.php" title="Cronologia">Cronologia</a></li>
             <li><a href="historic.php" title="Històric de la web">Històric</a></li>
             <li><a href="contacta.php" title="Posa't en contacte amb nosaltres">Contacta</a></li>
           </ul>

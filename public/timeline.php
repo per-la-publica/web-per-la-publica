@@ -1,5 +1,5 @@
 <?php	
-$titol = 'Línia temporal';
+$titol = 'Cronologia';
 require('skeleton_header.php'); 
 ?>
 
