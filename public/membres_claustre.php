@@ -202,9 +202,9 @@
 </div>
 
 <div class="row persona">
-	<div class="col-md-2 foto"><img src="/img/fotos_membres/maite_moreno.png" alt="Foto Maite Moreno"></div>
+	<div class="col-md-2 foto"><img src="/img/fotos_membres/moreno_mayte.jpg" alt="Foto Mayte Moreno"></div>
 	<div class="col-md-4 dades">
-		<div class="nom">Maite Moreno</div>
+		<div class="nom">Mayte Moreno</div>
 		<div class="info">
 			<p>PAS-F. <abbr title="UTG Campus Diagonal-Besòs">UTGCDB</abbr>.</p>
 		</div>
