@@ -17,11 +17,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003328">Directori</a></p>
 		</div>
-		<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
-		 -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/carbajo_sandra.jpg" alt="Foto Sandra Carbajo"></div>
@@ -33,11 +31,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113219">Directori</a></p>
 		</div>
-		<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
-		 -->
 	</div>
 </div>
 
@@ -135,11 +131,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003699">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 </div>
 
@@ -177,11 +171,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003547">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
     <div class="col-md-2 foto"><img src="/img/fotos_membres/mellado_alba.jpg" alt="Foto Alba Mellado"></div>
@@ -227,11 +219,9 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003105">Directori</a></p>
         </div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
     </div>
 </div>
 
@@ -246,11 +236,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003281">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/murcia_franc.jpg" alt="Foto Franc Murcia"></div>
@@ -297,11 +285,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003015">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 </div>
@@ -332,11 +318,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003471">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 </div>
 
@@ -366,11 +350,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113215">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 </div>
 
@@ -385,11 +367,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002334">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/teixido_oriol.jpg" alt="Foto Oriol Teixidó"></div>
@@ -401,11 +381,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003257">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 </div>
 
@@ -420,11 +398,9 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003789">Directori</a></p>
         </div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
     </div>
     
 </div>
