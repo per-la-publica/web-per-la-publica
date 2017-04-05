@@ -47,11 +47,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004244">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/claros_marta.jpg" alt="Foto Marta Clarós"></div>
@@ -63,11 +61,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003143">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 </div>
 
@@ -81,11 +77,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003773">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/garcia_francesc.jpg" alt="Foto Francesc Garcia"></div>
@@ -115,11 +109,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1113439">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/gimeno_patricia.jpg" alt="Foto Patricia Gimeno"></div>
@@ -147,6 +139,11 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003083">Directori</a></p>
 		</div>
+<!-- 
+		<div class="label label-success">
+			Claustral
+		</div>
+ -->
 	</div>
 
     <div class="col-md-2 foto"><img src="/img/fotos_membres/hornos_albert.jpg" alt="Foto Albert Hornos"></div>
@@ -158,6 +155,9 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1053962">Directori</a></p>
         </div>
+		<div class="label label-success">
+			Claustral
+		</div>
     </div>
 </div>
 
@@ -250,11 +250,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1002152">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 </div>
@@ -269,11 +267,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004077">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/prat_susana.jpg" alt="Foto Susana Prat"></div>
@@ -302,11 +298,9 @@
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1047355">Directori</a></p>
 		</div>
-<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
- -->
 	</div>
 
 	<div class="col-md-2 foto"><img src="/img/fotos_membres/rodriguez_carlos.jpg" alt="Foto Carlos Rodriguez"></div>
@@ -398,9 +392,11 @@
         <div class="contacte">
             <p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003789">Directori</a></p>
         </div>
+<!-- 
 		<div class="label label-success">
 			Claustral
 		</div>
+ -->
     </div>
     
 </div>
