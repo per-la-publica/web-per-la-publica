@@ -42,7 +42,7 @@
 	<div class="col-md-4 dades">
 		<div class="nom">Sònia Celades</div>
 		<div class="info">
-			<p>PAS-F. <abbr title="UTG àmbit Eng. Industrial de Barcelona">UTGAEIB</abbr>.</p>
+			<p>PAS-F. <abbr title="Escola Tècnica Superior d'Enginyeria de Telecomunicacions de Barcelona">ETSETB</abbr>.</p>
 		</div>
 		<div class="contacte">
 			<p><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1004244">Directori</a></p>
