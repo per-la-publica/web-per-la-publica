@@ -42,14 +42,11 @@
         <nav>
           <ul class="nav navbar-nav">
             <li><a href="carta.php" title="Carta de presentació">Presentació</a></li>
-            <li><a href="ideari.php" title="El nostre ideari">Ideari</a></li>
-            <li><a href="manifest.php" title="El Manifest de Per la Pública">Manifest</a></li>
             <?php /*<li><a href="funcionament.php" title="La nostra manera de fer">Funcionament</a></li>*/ ?>
             <li><a href="membres_claustre.php" title="Grup de treball del Claustre">Qui som?</a></li>
             <li><a href="activitat.php" title="Agenda d'activitats">Activitats</a></li>
             <?php /*<li><a href="participa.php">Participa</a></li>*/ ?>
             <li><a href="timeline.php" title="Cronologia">Cronologia</a></li>
-            <li><a href="historic.php" title="Històric de la web">Històric</a></li>
             <li><a href="contacta.php" title="Posa't en contacte amb nosaltres">Contacta</a></li>
           </ul>
         </nav>
