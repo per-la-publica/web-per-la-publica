@@ -1,11 +1,11 @@
-<?php	
+<?php
 $titol = 'Cronologia';
-require('skeleton_header.php'); 
+require('skeleton_header.php');
 ?>
 
 <div class="col-md-12">
 
-	<p>Si trobes a faltar alguna cosa, fes-nos-ho arribar al correu 
+	<p>Si trobes a faltar alguna cosa, fes-nos-ho arribar al correu
 	<a href="mailto:upc.per.la.publica@gmail.com">upc.per.la.publica@gmail.com</a>.</p>
 
 	<div class="embed-responsive embed-responsive-16by9">
@@ -13,8 +13,15 @@ require('skeleton_header.php');
         <p>Your browser does not support iframes.</p>
     </iframe>
     </div>
-    
-</div>
 
+</div>
+<div class="col-md-8">
+    <h2>Històric</h2>
+    <p class="lead">Aquesta pàgina recull l'històric de versions de la nostra web.</p>
+    <p>Hi podeu consultar tots els documents publicats històricament, les persones que hi han participat o l'evolució de *LP en el temps (funcionament, ideari, ...).</p>
+    <ul>
+        <li><a href="historic/2013/index.php">La nostra web, del 2013 fins al 2016.</a></li>
+    </ul>
+</div>
 
 <?php require('skeleton_footer.php'); ?>
