@@ -1,15 +1,19 @@
 <?php
-$titol = 'Manifest';
+$titol = 'Presentació';
 require('skeleton_header.php');
 ?>
 
+<div class="container">
+<div class="row">
 <div class="col-md-2 logo-container hidden-md hidden-xs hidden-sm">
     <p class="logo" style="font-size: 75px; padding-top: 25px">*LP</p>
 </div>
+
 <div class="col-md-8">
 <p class="lead">Som un grup de persones de la comunitat de la Universitat Politècnica de Catalunya
 compromeses amb la universitat pública, disposats a defensar la seva qualitat i els seus valors</p>
 
+<h2>Manifest</h2>
 <p>Tot i que ja no se’n parla tant de la crisi econòmica com fa uns anys, el Sistema Universitari
 Públic i el seu model segueix patint restriccions econòmiques i precarietat.</p>
 
@@ -37,8 +41,7 @@ en conjunt. Amb tothom i per a tothom.</p>
 <p>Ens comprometem a treballar per aquests valors en el nostre dia a dia, al nostre lloc de treball i
 als òrgans de govern, representació i consulta de la universitat.</p>
 
-<div class="col-md-8">
-<h1>Els nostres valors</h1>
+<h2>Els nostres valors</h2>
 <ul id="valors">
 	<li><strong>Valorem el progrés humanista i científic de la societat</strong>, per sobre del progrés econòmic.</li>
 	<li><strong>Valorem l’autonomia universitària d’interessos polítics i econòmics privats</strong>, per sobre de la capacitat d’autofinançament.</li>
@@ -49,38 +52,36 @@ als òrgans de govern, representació i consulta de la universitat.</p>
 <p>Reconeixem tots aquests valors dins la Universitat Pública tot i que entenem que n’hi ha que són fonamentals:
 per a nosaltres els valors de l’esquerra de la frase són irrenunciables.</p>
 
-</div>
+<h2>Ideari</h2>
 
-<div class="col-md-8">
-<h1>Ideari</h1>
-
-<h2>Implicació en la societat</h2>
+<h3>Implicació en la societat</h3>
 <ul>
 	<li>Volem una Universitat accessible a tota la societat.</li>
 	<li>Volem una Universitat que sigui motor del progrés social.</li>
 </ul>
 
-<h2>Autonomia universitària</h2>
+<h3>Autonomia universitària</h3>
 <ul>
 	<li>Volem una Universitat no controlada ni políticament ni econòmica.</li>
 	<li>Volem que la comunitat vetlli per la independència de la Universitat.</li>
 </ul>
 
-<h2>Democràcia directa i participativa</h2>
+<h3>Democràcia directa i participativa</h3>
 <ul>
 	<li>Volem que tota la comunitat pugui participar i decidir el futur de la Universitat.</li>
 	<li>Volem una Universitat que fomenti la participació.</li>
 </ul>
 
-<h2>Transparència i responsabilitat</h2>
+<h3>Transparència i responsabilitat</h3>
 <ul>
 	<li>Volem una Universitat que entengui la transparència com una eina de millora.</li>
 	<li>Volem que cada membre de la comunitat es responsabilitzi de les seves decisions i accions.</li>
 </ul>
-</div>
-</div>
-<p>Barcelona, juny de 2017</p>
+
+<p><strong>Barcelona, juny de 2017</strong></p>
+
 </div>
 
-
+</div>
+</div>
 <?php require('skeleton_footer.php'); ?>
