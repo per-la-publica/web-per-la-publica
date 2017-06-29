@@ -44,7 +44,7 @@
 
 			<div class="col-md-4" onclick="document.location='timeline.php'" style="cursor:pointer">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"> Activitats</div>
+					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"> Cronologia</div>
 					<div class="panel-body">
 						Un recull d'esdeveniments i notícies rellevants d'aquests últims anys a la UPC.
 					</div>
