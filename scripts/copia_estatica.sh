@@ -1,12 +1,13 @@
 #!/bin/bash
 
-# Genera una còpia estàtica de la web en el directori ./xlp
+# Genera una còpia estàtica de la web en el directori ./static
 rm -rf static
 wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://192.168.34.10/index.html
-mkdir -p static/img/; cp -R public/img/* static/img/
-mkdir -p static/historic/2013/img/; cp -R public/historic/2013/img/* static/historic/2013/img/
+cd public
+find * -type d -name "img" -exec mkdir -p ../static/{} \;
+find * -type d -name "img" -exec bash -c "cp -v -R {}/* ../static/{}" \;
+cd ..
 echo -n "www.perlapublica.org" > static/CNAME
 
-# Pàgines que s'han de generar explícitament perquè no hi ha
-# cap enllaç a elles.
+# Pàgines que s'han de generar explícitament perquè no hi ha cap enllaç a elles.
 #wget --recursive --page-requisites --relative http://xlp/questionari_eleccions_rector.html
