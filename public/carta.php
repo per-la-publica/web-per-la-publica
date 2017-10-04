@@ -26,22 +26,10 @@ require('skeleton_header.php');
 			que formem part de la Universitat. No només per la Universitat en sí mateixa, sinó per a tota la societat
 			en conjunt. Amb tothom i per a tothom.</p>
 
-			<p><strong>Volem&hellip;</strong><p>
-			<ul class="unstyled">
-			<li>&hellip; una Universitat accessible a tota la societat.</li>
-			<li>&hellip; una Universitat que sigui motor del progrés social.</li>
-			<li>&hellip; una Universitat no controlada ni política ni econòmicament.</li>
-			<li>&hellip; que la comunitat vetlli per la independència de la Universitat.</li>
-			<li>&hellip; que tota la comunitat pugui participar i decidir el futur de la Universitat.</li>
-			<li>&hellip; una Universitat que fomenti la participació.</li>
-			<li>&hellip; una Universitat que entengui la transparència com una eina de millora.</li>
-			<li>&hellip; que cada membre de la comunitat es responsabilitzi de les seves decisions i accions.</li>
-			</ul>
-
 			<p>Ens comprometem a treballar per aquests valors en el nostre dia a dia, al nostre lloc de treball i
 			als òrgans de govern, representació i consulta de la universitat.</p>
 
-			<h2>Els nostres valors</h2>
+			<h2>Valors</h2>
 			<ul id="valors">
 				<li><strong>Valorem el progrés humanista i científic de la societat</strong>, per sobre del progrés econòmic.</li>
 				<li><strong>Valorem l’autonomia universitària d’interessos polítics i econòmics privats</strong>, per sobre de la capacitat d’autofinançament.</li>
@@ -51,6 +39,9 @@ require('skeleton_header.php');
 
 			<p>Reconeixem tots aquests valors dins la Universitat Pública tot i que entenem que n’hi ha que són fonamentals:
 			per a nosaltres els valors de l’esquerra de la frase són irrenunciables.</p>
+
+			<p>Ens comprometem a treballar per aquests valors en el nostre dia a dia, al nostre lloc de treball i als 
+				òrgans de govern, representació i consulta de la universitat.</p>
 
 			<h2>Ideari</h2>
 
