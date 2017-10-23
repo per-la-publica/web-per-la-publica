@@ -11,7 +11,8 @@ require('skeleton_header.php');
 
 		<div class="col-md-8">
 			<p class="lead">Aquesta pàgina recull algunes de les inquietuds que
-				membres del PAS ens han fet arribar durant els darrers mesos</p>
+				membres del PAS ens han fet arribar durant els darrers mesos.
+			  Feu-nos arribar les teves propostes escrivint un comentari al final de la pàgina.</p>
 
 			<ul id="inquietuds">
 				<li>Conciliació laboral: facilitar teletreball, flexibilitat horaris, permisos ...)</li>
@@ -72,7 +73,27 @@ require('skeleton_header.php');
 
 			</ul>
 
-		</div>
+
+		<div id="disqus_thread"></div>
+		<script>
+
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		var disqus_config = function () {
+		this.page.url = 'https://www.perlapublica.org/inquietuds_pas.php';  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = 'inquietuds-pas'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://perlapublica.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	</div>
 
 	</div> <!-- row -->
 </div> <!-- container -->
