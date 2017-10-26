@@ -5,7 +5,7 @@ require('skeleton_header.php');
 
 <div class="col-md-12">
 
-	<p>Si trobes a faltar alguna cosa, fes-nos-ho arribar al correu
+	<p>Si trobes a faltar quelcom, fes-nos-ho arribar al correu
 	<a href="mailto:upc.per.la.publica@gmail.com">upc.per.la.publica@gmail.com</a>.</p>
 
 	<div class="embed-responsive embed-responsive-16by9">
