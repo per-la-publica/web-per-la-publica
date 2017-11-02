@@ -15,9 +15,26 @@
 			<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.php">representants al Claustre</a>, al Consell
 	               de Govern i al Consell Social de la UPC. Volem fer sentir la vostra veu!</p>
 
+			<div class="col-md-12" onclick="document.location='inquietuds-pas.php'">
+				<div class="panel panel-primary">
+					<div class="panel-heading lead">Eleccions a Rector UPC</div>
+					<div class="panel-body">
+						<p>Estem preparant un <a href="inquietuds_pas.php"><b>document amb les inquietuds del PAS</b></a> 
+						que ens heu fet arribar fins ara. La nostra intenció és enviar presentar aquest recull d'inquietuds als 
+						candidats a Rector <a href="https://enricfossas.cat/">Enric Fossas</a> i 
+						<a href="http://www.francesctorres.cat/">Francesc Torres</a>,
+						i publicar les seves respostes.</p>
+
+						<p class="lead text-center"><a href="inquietuds_pas.php">Fes-nos arribar els teus comentaris</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div id="capsetes">
+			
 			<div class="col-md-4" onclick="document.location='carta.php'" style="cursor:pointer">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"> Presentació</div>
+					<div class="panel-heading"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Presentació</div>
 					<div class="panel-body">
 						Vols saber més sobre què és Per la Pública, quins són el nostre ideari i els nostres valors?
 					</div>
@@ -26,7 +43,7 @@
 
 			<div class="col-md-4" onclick="document.location='membres_claustre.php'" style="cursor:pointer">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="glyphicon glyphicon-user" aria-hidden="true"> Qui som</div>
+					<div class="panel-heading"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Qui som</div>
 					<div class="panel-body">
 						Pertanyem a diferents dep&shy;ar&shy;ta&shy;ments i uni&shy;tats de la UPC. Som molt a prop de tu!
 					</div>
@@ -35,7 +52,7 @@
 
 			<div class="col-md-4" onclick="document.location='activitat.php'" style="cursor:pointer">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"> Activitats</div>
+					<div class="panel-heading"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Activitats</div>
 					<div class="panel-body">
 						La nostra agenda: consulta el calendari de les properes re&shy;u&shy;nions i activitats.
 					</div>
@@ -44,12 +61,13 @@
 
 			<div class="col-md-4" onclick="document.location='timeline.php'" style="cursor:pointer">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"> Cronologia</div>
+					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Cronologia</div>
 					<div class="panel-body">
 						Un recull d'esdeveniments i notícies rellevants d'aquests últims anys a la UPC.
 					</div>
 				</div>
-			</div>			
+			</div>		
+			</div>	
 		</div>
 
         <div class="col-md-3">
@@ -68,4 +86,9 @@
     </div>
 </div>
 
+<script>
+	$(function(){
+		$('#capsetes .panel-heading').css('font-size','20pt');
+	});
+</script>
 <?php require('skeleton_footer.php'); ?>

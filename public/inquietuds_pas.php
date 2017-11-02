@@ -15,11 +15,11 @@ require('skeleton_header.php');
 			  Feu-nos arribar les teves propostes escrivint un comentari al final de la pàgina.</p>
 
 			<ul id="inquietuds">
-				<li>Conciliació laboral: facilitar teletreball, flexibilitat horaris, permisos ...)</li>
+				<li>Conciliació laboral: facilitar teletreball, flexibilitat horaris, permisos, etc.</li>
 
-				<li>Transparència: (tot pas que es faci, s’ha de ser capaç de justificar-ho
+				<li>Transparència: tot pas que es faci, s’ha de ser capaç de justificar-ho
 						i de poder explicar, no només la decisió final, sinó els arguments basats i
-						sustentats en acords, dades, normatives, procediments oberts...).
+						sustentats en acords, dades, normatives, procediments oberts, etc.
 						La transparència és una expressió de respecte i equitat entre persones i
 						col·lectius.</li>
 
@@ -41,9 +41,9 @@ require('skeleton_header.php');
 				<li>Personal de consergeria: preocupa la manca de recursos i la tendència
 					de la privatització del servei.</li>
 
-				<li>Finançament de les UTG’s (cal procurar que aquestes tinguin els recursos
+				<li>Finançament de les UTG’s: cal procurar que aquestes tinguin els recursos
 					disponibles per acomplir amb els serveis que han d’oferir i les tasques
-					que han de realitzar).</li>
+					que han de realitzar.</li>
 
 				<li>Recuperar mesures socials com per exemple l’ajut de fons social per tenir
 					fills amb discapacitat, i d’altres mesures com la gratuïtat en la matrícula
@@ -68,8 +68,10 @@ require('skeleton_header.php');
 					online o descentralitzant la realització de cursos.</li>
 
 				<li>Garantir el dret a la carrera professional del PAS en termes negociats, de
-					tal manera q no calgui esperar molts anys i molta sort (en el millor dels
-					casos) per tenir opcions a promoció com passa actualment.</li>
+					tal manera q no calgui esperar molts anys i molta sort, en el millor dels
+					casos, per tenir opcions a promoció com passa actualment.</li>
+
+				<li></li>
 
 			</ul>
 
