@@ -10,4 +10,4 @@ cd ..
 echo -n "www.perlapublica.org" > static/CNAME
 
 # Pàgines que s'han de generar explícitament perquè no hi ha cap enllaç a elles.
-#wget --recursive --page-requisites --relative http://xlp/questionari_eleccions_rector.html
+#wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://192.168.34.10/index-capsetes.html
