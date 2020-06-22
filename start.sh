@@ -1,6 +1,5 @@
 #! /bin/bash
 
-INIFILE="$(pwd)/server/server.ini"
 DOCROOT="$(pwd)/public"
 ROUTER="$(pwd)/router.php"
 HOST=0.0.0.0
@@ -12,5 +11,5 @@ if [ $? != 0 ] ; then
     exit 1
 fi
 
-$PHP -S $HOST:$PORT -t $DOCROOT $ROUTER
+$PHP -S $HOST:$PORT -t "$DOCROOT" "$ROUTER"
 
