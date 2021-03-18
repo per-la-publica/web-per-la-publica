@@ -1,6 +1,10 @@
 <?php
 	$titol = 'Claustre: Qui som';
 	require('skeleton_header.php');
+
+	$membres = [
+		['aguilera_millan_angel.jpg', 'Àngel Aguilera', 'PAS-L', 'UTG àmbit Camins', 'UTGAC', '1003328', 'claustral'],
+	];
 ?>
 
 <p class="lead">Aquests som els membres de <strong>«Per la Pública»</strong> que ens hem compromés a treballar
@@ -23,14 +27,18 @@
 
 <div class="grid-container">
 
+<?php foreach ($membres as $i) { ?>
 	<div class="grid-item">
-		<div class="foto"><img src="/img/fotos_membres/aguilera_millan_angel.jpg" alt="Foto Àngel Aguilera"></div>
-		<div class="nom">Àngel Aguilera</div>
-		<div class="info">PAS-L. <abbr title="UTG àmbit Camins">UTGAC</abbr>.</div>
-		<div class="contacte"><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=1003328">Directori</a></div>
+		<div class="foto"><img src="/img/fotos_membres/<?=$i[0]?>" alt="Foto <?=$i[1]?>"></div>
+		<div class="nom"><?=$i[1]?></div>
+		<div class="info"><?=$i[2]?>. <abbr title="<?=$i[3]?>"><?=$i[4]?></abbr>.</div>
+		<div class="contacte"><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[5]?>">Directori</a></div>
+<?php if ($i[6] == 'claustral') { ?>
 		<div class="label label-success">Claustral</div>
+<?php } ?>
 	</div>
 
+<?php } ?>
 	<div class="grid-item">
 		<div class="foto"><img src="/img/fotos_membres/carbajo_sandra.jpg" alt="Foto Sandra Carbajo"></div>
 		<div class="nom">Sandra Carbajo</div>
