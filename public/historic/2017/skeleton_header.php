@@ -67,8 +67,23 @@
 	<div class="xarxes-socials"><?php require_once('skeleton_xarxes_socials.php'); ?></div>
 */
 ?>
+
+<?php
+/*
     <?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+    <?php endif; ?>
+*/
+?>
+
+    <?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
+        <div class="container">
+			<div class="alert alert-warning">
+				<p>Estàs veient l'històric de la web. <a href="../../">Tornar a la web actual</a>.</p>
+			</div>
+
             <div class="row">
                 <div class="col-md-12">
     <?php endif; ?>
