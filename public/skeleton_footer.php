@@ -11,7 +11,7 @@
 	</div>
 </footer>
 	
-<script type="text/javascript">
+<script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-37488000-1']);
   _gaq.push(['_trackPageview']);
