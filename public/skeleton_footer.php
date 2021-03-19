@@ -1,13 +1,15 @@
-	<?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
-    		</div> <!-- /.col-md-* -->
-    	</div> <!-- /.row -->
-	</div> <!-- /.container -->
-	<?php endif; ?>
+  <?php if (!isset($paginaPrincipal) || !$paginaPrincipal) : ?>
+        </div> <!-- /.col-md-* -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  <?php endif; ?>
 
-	<footer class="footer" style="margin-top: 2em">
-		<div class="container">
-		</div>
-	</footer>
+</main>
+
+<footer class="footer" style="margin-top: 2em">
+	<div class="container">
+	</div>
+</footer>
 	
 <script type="text/javascript">
   var _gaq = _gaq || [];
