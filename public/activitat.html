@@ -3,6 +3,8 @@ $titol = 'Activitats';
 require('skeleton_header.php');
 ?>
 
+<?php $num_butlletins_2001 = 0 ?>
+
 <div class="col-md-2 logo-container hidden-md hidden-xs hidden-sm">
     <p class="logo aside">*LP</p>
 </div>
@@ -34,8 +36,9 @@ require('skeleton_header.php');
 		</div>
 	</div>
 
-    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=upc.per.la.publica%40gmail.com&amp;showTitle=0&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="730" height="500" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=upc.per.la.publica%40gmail.com&amp;showTitle=0&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="600" height="250" frameborder="0" scrolling="no"></iframe>
 
+<?php if ($num_butlletins_2001 > 0) { ?>
     <div class="row">
         <div class="col-md-6">
             <h3>Butlletins</h3>
@@ -74,6 +77,11 @@ require('skeleton_header.php');
         </div>
     </div>
 	<h3>Altres accions</h3>
+<?php } else { ?>
+
+	<h3>Eleccions a Rector</h3>
+
+<?php } ?>
 
     <h4>Novembre 2017</h4>
     <p>
