@@ -32,32 +32,44 @@
 	];
 ?>
 
-<p class="lead">Aquests som els membres de <strong>«Per la Pública»</strong> que ens hem compromés a treballar
-    al Claustre de la UPC. L'etiqueta <span class="label label-success">Claustral</span>, a més, indica que
-    aquella persona ha estat escollida com a membre del Claustre.</p>
-
-
 <style>
 	.grid-container {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-		padding: 10px;
+		grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+		padding: 1rem;
 	}
 
 	.grid-item {
-		padding: 20px;
+		padding: 1.8rem;
+	}
+
+	.foto img {
+		width: 100%;
+	}
+
+	.nom {
+		font-size: 1.8rem;
+		font-weight: bold;
+		margin-top: 0.5rem;
+		margin-bottom: 0;
 	}
 </style>
+
+<p class="lead">Aquests som els membres de <strong>«Per la Pública»</strong> que ens hem compromés a treballar
+    al Claustre de la UPC. L'etiqueta <span class="label label-success">Claustral</span>, a més, indica que
+    aquella persona ha estat escollida com a membre del Claustre.</p>
 
 
 <div class="grid-container">
 
 <?php foreach ($membres as $i) { ?>
 	<div class="grid-item">
-		<div class="foto"><img src="/img/fotos_membres/<?=$i[0]?>" alt="Foto <?=$i[1]?>"></div>
+		<div class="foto"><img src="/img/fotos_membres/<?=$i[0]?>" alt="Foto <?=$i[1]?>" class="img-thumbnail"></div>
 		<div class="nom"><?=$i[1]?></div>
 		<div class="info"><?=$i[2]?>. <abbr title="<?=$i[3]?>"><?=$i[4]?></abbr>.</div>
-		<div class="contacte"><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[5]?>">Directori</a></div>
+		<div class="contacte">
+			<a title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[5]?>"><span class="glyphicon glyphicon-envelope" style="margin-right: 0.2rem; margin-top: 0.2rem;" aria-hidden="true"></span>Directori</a>
+		</div>
 <?php if ($i[6] == 'claustral') { ?>
 		<div class="label label-success">Claustral</div>
 <?php } ?>
@@ -68,17 +80,4 @@
 
 <hr>
 
-<script type="text/javascript">
-	$(function() {
-		$('.persona').css('margin-top','2em');
-		$('.foto img').css({'width': '100%'}).addClass('img-thumbnail');
-		$('.nom').css({
-			'font-size':'130%',
-			'font-weight':'bold',
-            'margin-top':'0.5em',
-			'margin-bottom':'0.5em'
-		});
-        $('<i class="glyphicon glyphicon-envelope" style="margin-right:0.2em;margin-top:0.2em"></i>').prependTo('a.directori');
-	});
-</script>
 <?php require('skeleton_footer.php'); ?>
