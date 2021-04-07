@@ -2,40 +2,65 @@
 	$titol = 'Claustre: Qui som';
 	require('skeleton_header.php');
 
+	$ue = array (
+		"CCN"      => "Coordinació del Campus Nord",
+		"UTGAC"    => "Unitat Transversal de Gestió de l'Àmbit de Camins",
+		"UTGAN"    => "Unitat Transversal de Gestió de l'Àmbit de Nàutica",
+		"UTGAM"    => "Unitat Transversal de Gestió de l'Àmbit de Matemàtiques",
+		"UTGCBL"   => "Unitat Transversal de Gestió del Campus del Baix Llobregat",
+		"UTGVG"    => "Unitat Transversal de Gestió del Campus de Vilanova i la Geltrú",
+		"UTGAB"    => "Unitat Transversal de Gestió de l'Àmbit de l'Arquitectura de Barcelona",
+		"UTGM"     => "Unitat Transversal de Gestió del Campus de Manresa",
+		"UTGASC"   => "Unitat Transversal de Gestió de l'Àmbit Arquitectura de Sant Cugat",
+		"UTGAEIB"  => "Unitat Transversal de Gestió de l'Àmbit de l'Enginyeria Industrial de Barcelona",
+		"UTGAE"    => "Unitat Transversal de Gestió de l'Àmbit d'Edificació",
+		"UTGCT"    => "Unitat Transversal de Gestió del Campus Terrassa",
+		"UTGAOO"   => "Unitat Transversal de Gestió de l'Àmbit d'Òptica i Optometria",
+		"UTGCDB"   => "Unitat Transversal de Gestió del Campus Diagonal-Besòs",
+		"UTGCNTIC" => "Unitat Transversal de Gestió Àmbit TIC Campus Nord",
+		"Rectorat" => "Rectorat, Campus Nord",
+		"SE"       => "Servei d'economia",
+		"ATIC"     => "Àrea TIC",
+		"SSTICI"   => "Servei Suport TIC i Innovació",
+		"SDDSTIC"  => "Servei Disseny i Desenv. Solucions Tic",
+		"SBPA"     => "Servei de Biblioteques, Public. i Arxius",
+		"GPAQ"     => "Gabinet Planificació, Aval. i Qualitat"
+	);
+
 	$membres = [
-		['aguilera_millan_angel.jpg', 'Àngel Aguilera', 'PAS-L', 'UTG àmbit Camins', 'UTGAC', '1003328', 'claustral'],
-		['albareda_oscar.jpg', 'Òscar Albareda', 'PAS-L', "Servei Disseny i Desenv. Solucions TIC", 'SDDSTIC', '1003161', ''],		
-		['bassols_marta.jpg', 'Marta Bassols', 'PAS-L', "Servei d'Economia", 'SE', '1003198', ''],
-		['carbajo_sandra.jpg', 'Sandra Carbajo', 'PAS-F', 'UTG àmbit de Matemàtiques', 'UTGAM', '1113219', 'claustral'],
-		['celades_sonia.png', 'Sònia Celades', 'PAS-F', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1004244', 'claustral'],
-		['claros_marta.jpg', 'Marta Clarós', 'PAS-F', "UTG àmbit Eng. Industrial de Barcelona", 'UTGAEIB', '1003143', 'claustral'],
-		['darnell_isabel.jpg', 'Isabel Darnell', 'PAS-L', "Servei Suport TIC i Innovació", 'SSTICI', '1003773', 'claustral'],
-		['franch_sandra.jpg', 'Sandra Franch', 'PAS-L', 'UTG Campus de Manresa', 'UTGM', '1052530', ''],
-		['garcia_francesc.jpg', 'Francesc Garcia', 'PAS-L', "UTG Campus Terrassa", 'UTGCT', '1002964', ''],
-		['gener_david.jpg', 'David Gener', 'PAS-F', "Servei de Biblioteques, Public. i Arxius", 'SBPA', '1113439', 'claustral'],
-		['gimeno_patricia.jpg', 'Patricia Gimeno', 'PAS-F', "UTG Campus Diagonal-Besòs", 'UTGCDB', '1003699', 'claustral'],
-		['gomez_jose_enrique.jpg', 'José Enrique Gómez', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1003083', ''],
-		['lopez_irene.jpg', 'Irene López', 'PAS-L, PDI', 'UTG Campus Diagonal-Besòs', 'UTGCDB', '1112836', ''],
-		['marsa_sandra.png', 'Sandra Marsà', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1003547', 'claustral'],
-		['mellado_alba.jpg', 'Alba Mellado', 'PAS-F', "UTG Campus Diagonal-Besòs", 'UTGCDB', '1103370', ''],
-		['moreno_mayte.jpg', 'Mayte Moreno', 'PAS-F', "UTG Campus Diagonal-Besòs", 'UTGCDB', '1004050', ''],
-		['morillas_francisco.jpg', 'Francisco Morillas', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1003105', 'claustral'],
-		['muntada_alex.jpg', 'Alex Muntada', 'PAS-L', "Servei Disseny i Desenv. Solucions TIC", 'SDDSTIC', '1003281', 'claustral'],
-		['murcia_franc.jpg', 'Franc Murcia', 'PAS-F', "Gabinet Planificació, Aval. i Qualitat", 'GPAQ', '1002152', 'claustral'],
-		['meritxell_oncins.jpg', 'Meritxell Oncins', 'PAS-L', "Servei Suport TIC i Innovació", 'SSTICI', '1002883', ''],
-		['ortin_david.jpg', 'David Ortin', 'PAS-L', "UTG àmbit Camins", 'UTGAC', '1004077', 'claustral'],
-		['poncelas_oscar.jpg', 'Òscar Poncelas', 'PAS-L', 'UTG Campus Diagonal-Besòs', 'UTGCDB', '1003909', ''],
-		['prat_susana.jpg', 'Susana Prat', 'PAS-F', "UTG Campus Diagonal-Besòs", 'UTGCDB', '1003015', 'claustral'],
-		['rodriguez_gloria.jpeg', 'Gloria Rodriguez', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1047355', 'claustral'],
-		['rodriguez_carlos.jpg', 'Carlos Rodríguez', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1003471', 'claustral'],
-		['rodriguez_jose.jpg','José A. Rodríguez','PAS-L',"Servei Disseny i Desenv. Solucions TIC", 'SDDSTIC','1002688',''],
-		['romero_mireia.jpg','Mireia Romero','PAS-L', "Utg Campus del Baix Llobregat", 'UTGBL', '1246783', ''],
-		['rubio_oscar.png', 'Oscar Rubio', 'PAS-F', "UTG àmbit Camins", 'UTGAC', '1004059', ''],
-		['sanchez_daniel.jpg', 'Dani Sánchez', 'PAS-L', 'UTG àmbit TIC Campus Nord', 'UTGCNTIC', '1003230', ''],
-		['sanchez_nuria.jpg', 'Nuria Sanchez', 'PAS-F', "UTG Campus del Baix Llobregat", 'UTGCBL', '1113215', 'claustral'],
-		['tallon_carme.png', 'Carme Tallón', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1002334', 'claustral'],
-		['teixido_oriol.jpg', 'Oriol Teixidó', 'PAS-L', "UTG àmbit Camins", 'UTGAC', '1003257', 'claustral'],
-		['verdugo_fernando.jpg', 'Fernando Verdugo', 'PAS-L', "UTG àmbit TIC Campus Nord", 'UTGCNTIC', '1003789', ''],
+		['aguilera_millan_angel.jpg', 'Àngel Aguilera', 'PAS-L', 'UTGAC', '1003328', ['claustral', 'candidat']],
+		['albareda_oscar.jpg', 'Òscar Albareda', 'PAS-L', 'SDDSTIC', '1003161', ['candidat']],
+		['bassols_marta.jpg', 'Marta Bassols', 'PAS-L', 'SE', '1003198', ['candidata']],
+		['carbajo_sandra.jpg', 'Sandra Carbajo', 'PAS-F', 'UTGAM', '1113219', ['claustral']],
+		['celades_sonia.png', 'Sònia Celades', 'PAS-F', 'UTGCNTIC', '1004244', ['claustral']],
+		['claros_marta.jpg', 'Marta Clarós', 'PAS-F', 'UTGAEIB', '1003143', ['claustral','candidata']],
+		['darnell_isabel.jpg', 'Isabel Darnell', 'PAS-L', 'SSTICI', '1003773', ['claustral','candidata']],
+		['franch_sandra.jpg', 'Sandra Franch', 'PAS-L', 'UTGM', '1052530', ['candidata']],
+		['garcia_francesc.jpg', 'Francesc Garcia', 'PAS-L', 'UTGCT', '1002964', []],
+		['gener_david.jpg', 'David Gener', 'PAS-F', 'SBPA', '1113439', ['claustral','candidat']],
+		['gimeno_patricia.jpg', 'Patricia Gimeno', 'PAS-F', 'UTGCDB', '1003699', ['claustral','candidata']],
+		['gomez_jose_enrique.jpg', 'José Enrique Gómez', 'PAS-L','UTGCNTIC', '1003083', ['candidat']],
+		['lopez_irene.jpg', 'Irene López', 'PAS-L, PDI', 'UTGCDB', '1112836', ['candidata']],
+		['marsa_sandra.png', 'Sandra Marsà', 'PAS-L', 'UTGCNTIC', '1003547', ['claustral','candidata']],
+		['mellado_alba.jpg', 'Alba Mellado', 'PAS-F', 'UTGCDB', '1103370', ['']],
+		['moreno_mayte.jpg', 'Mayte Moreno', 'PAS-F', 'UTGCDB', '1004050', ['']],
+		['morillas_francisco.jpg', 'Francisco Morillas', 'PAS-L', 'UTGCNTIC', '1003105', ['claustral','candidat']],
+		['muntada_alex.jpg', 'Alex Muntada', 'PAS-L', 'SDDSTIC', '1003281', ['claustral','candidat']],
+		['murcia_franc.jpg', 'Franc Murcia', 'PAS-F',  'GPAQ', '1002152', ['claustral','candidat']],
+		['meritxell_oncins.jpg', 'Meritxell Oncins', 'PAS-L', 'SSTICI', '1002883', ['candidata']],
+		['ortin_david.jpg', 'David Ortin', 'PAS-L', 'UTGAC', '1004077', ['claustral']],
+		['poncelas_oscar.jpg', 'Òscar Poncelas', 'PAS-L', 'UTGCDB', '1003909', ['candidat']],
+		['prat_susana.jpg', 'Susana Prat', 'PAS-F', 'UTGCDB', '1003015', ['claustral','candidata']],
+		['rodriguez_gloria.jpeg', 'Gloria Rodriguez', 'PAS-L', 'UTGCNTIC', '1047355', ['claustral','candidata']],
+		['rodriguez_carlos.jpg', 'Carlos Rodríguez', 'PAS-L', 'UTGCNTIC', '1003471', ['claustral','candidat']],
+		['rodriguez_jose.jpg','José A. Rodríguez','PAS-L', 'SDDSTIC','1002688',['candidat']],
+		['romero_mireia.jpg','Mireia Romero','PAS-L', 'UTGCBL', '1246783', ['candidata']],
+		['rubio_oscar.png', 'Oscar Rubio', 'PAS-F',  'UTGAC', '1004059', ['candidat']],
+		['sanchez_daniel.jpg', 'Dani Sánchez', 'PAS-L', 'UTGCNTIC', '1003230', ['candidat']],
+		['sanchez_nuria.jpg', 'Nuria Sanchez', 'PAS-F', 'UTGCBL', '1113215', ['claustral']],
+		['tallon_carme.png', 'Carme Tallón', 'PAS-L', 'UTGCNTIC', '1002334', ['claustral','candidata']],
+		['teixido_oriol.jpg', 'Oriol Teixidó', 'PAS-L', 'UTGAC', '1003257', ['claustral','candidat']],
+		['verdugo_fernando.jpg', 'Fernando Verdugo', 'PAS-L', 'UTGCNTIC', '1003789', []],
 	];
 ?>
 
@@ -63,9 +88,11 @@
 </style>
 
 <p class="lead">Aquests som els membres de <strong>«Per la Pública»</strong> que ens hem compromés a treballar
-    al Claustre de la UPC. L'etiqueta <span class="label label-success">Claustral</span>, a més, indica que
-    aquella persona ha estat escollida com a membre del Claustre.</p>
-
+    al Claustre de la UPC. L'etiqueta <span class="label label-info">candidat/a</span> indica quines persones
+	<a href="https://eleccionsclaustre.upc.edu/ca/candidatures/candidatures#d">es presenten a les eleccions
+	al Claustre 2021</a> sota la candidatura «<em>Per la Pública</em>».
+	L'etiqueta <span class="label label-success">claustral</span>,
+	a més, indica que aquella persona és membre del Claustre actualment.</p>
 
 <div class="grid-container">
 
@@ -73,13 +100,14 @@
 	<div class="grid-item">
 		<div class="foto"><img src="/img/fotos_membres/<?=$i[0]?>" alt="Foto <?=$i[1]?>" class="img-thumbnail"></div>
 		<div class="nom"><?=$i[1]?></div>
-		<div class="info"><?=$i[2]?>. <abbr title="<?=$i[3]?>"><?=$i[4]?></abbr>.</div>
+		<div class="info"><?=$i[2]?>. <abbr title="<?=$ue[$i[3]]?>"><?=$i[3]?></abbr>.</div>
 		<div class="contacte">
-			<a title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[5]?>"><span class="glyphicon glyphicon-envelope" style="margin-right: 0.2rem; margin-top: 0.2rem;" aria-hidden="true"></span>Directori</a>
+			<a title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[4]?>"><span class="glyphicon glyphicon-envelope" style="margin-right: 0.2rem; margin-top: 0.2rem;" aria-hidden="true"></span>Directori</a>
 		</div>
-<?php if ($i[6] == 'claustral') { ?>
-		<div class="label label-success">Claustral</div>
-<?php } ?>
+		<?php foreach ($i[5] as $tag) { ?>
+			<?php $labelType = ($tag == 'claustral') ? 'success' : 'info' ?>
+                        <div class="label label-<?=$labelType?>"><?=$tag?></div>
+		<?php } ?>
 	</div>
 
 <?php } ?>
