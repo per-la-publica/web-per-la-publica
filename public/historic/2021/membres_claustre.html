@@ -1,0 +1,116 @@
+<?php
+	$titol = 'Claustre: Qui som';
+	require('skeleton_header.php');
+
+	$ue = array (
+		"CCN"      => "Coordinació del Campus Nord",
+		"UTGAC"    => "Unitat Transversal de Gestió de l'Àmbit de Camins",
+		"UTGAN"    => "Unitat Transversal de Gestió de l'Àmbit de Nàutica",
+		"UTGAM"    => "Unitat Transversal de Gestió de l'Àmbit de Matemàtiques",
+		"UTGCBL"   => "Unitat Transversal de Gestió del Campus del Baix Llobregat",
+		"UTGVG"    => "Unitat Transversal de Gestió del Campus de Vilanova i la Geltrú",
+		"UTGAB"    => "Unitat Transversal de Gestió de l'Àmbit de l'Arquitectura de Barcelona",
+		"UTGM"     => "Unitat Transversal de Gestió del Campus de Manresa",
+		"UTGASC"   => "Unitat Transversal de Gestió de l'Àmbit Arquitectura de Sant Cugat",
+		"UTGAEIB"  => "Unitat Transversal de Gestió de l'Àmbit de l'Enginyeria Industrial de Barcelona",
+		"UTGAE"    => "Unitat Transversal de Gestió de l'Àmbit d'Edificació",
+		"UTGCT"    => "Unitat Transversal de Gestió del Campus Terrassa",
+		"UTGAOO"   => "Unitat Transversal de Gestió de l'Àmbit d'Òptica i Optometria",
+		"UTGCDB"   => "Unitat Transversal de Gestió del Campus Diagonal-Besòs",
+		"UTGCNTIC" => "Unitat Transversal de Gestió Àmbit TIC Campus Nord",
+		"Rectorat" => "Rectorat, Campus Nord",
+		"SE"       => "Servei d'economia",
+		"ATIC"     => "Àrea TIC",
+		"SSTICI"   => "Servei Suport TIC i Innovació",
+		"SDDSTIC"  => "Servei Disseny i Desenv. Solucions Tic",
+		"SBPA"     => "Servei de Biblioteques, Public. i Arxius",
+		"GPAQ"     => "Gabinet Planificació, Aval. i Qualitat"
+	);
+
+	$membres = [
+		['aguilera_millan_angel.jpg', 'Àngel Aguilera', 'PAS-L', 'UTGAC', '1003328', ['claustral', 'candidat']],
+		['albareda_oscar.jpg', 'Òscar Albareda', 'PAS-L', 'SDDSTIC', '1003161', ['candidat']],
+		['bassols_marta.jpg', 'Marta Bassols', 'PAS-F', 'SE', '1003198', ['candidata']],
+		['carbajo_sandra.jpg', 'Sandra Carbajo', 'PAS-F', 'UTGAM', '1113219', ['claustral']],
+		['celades_sonia.png', 'Sònia Celades', 'PAS-F', 'UTGCNTIC', '1004244', ['claustral']],
+		['claros_marta.jpg', 'Marta Clarós', 'PAS-F', 'UTGCBL', '1003143', ['claustral','candidata']],
+		['darnell_isabel.jpg', 'Isabel Darnell', 'PAS-L', 'SSTICI', '1003773', ['claustral','candidata']],
+		['franch_sandra.jpg', 'Sandra Franch', 'PAS-L', 'UTGM', '1052530', ['candidata']],
+		['garcia_francesc.jpg', 'Francesc Garcia', 'PAS-L', 'UTGCT', '1002964', []],
+		['gener_david.jpg', 'David Gener', 'PAS-F', 'SBPA', '1113439', ['claustral','candidat']],
+		['gimeno_patricia.jpg', 'Patricia Gimeno', 'PAS-F', 'UTGCDB', '1003699', ['claustral','candidata']],
+		['gomez_jose_enrique.jpg', 'José Enrique Gómez', 'PAS-L','UTGCNTIC', '1003083', []],
+		['lopez_irene.jpg', 'Irene López', 'PAS-L, PDI', 'UTGCDB', '1112836', ['candidata']],
+		['marsa_sandra.png', 'Sandra Marsà', 'PAS-L', 'UTGCNTIC', '1003547', ['claustral','candidata']],
+		['morillas_francisco.jpg', 'Francisco Morillas', 'PAS-L', 'UTGCNTIC', '1003105', ['claustral','candidat']],
+		['muntada_alex.jpg', 'Alex Muntada', 'PAS-L', 'SDDSTIC', '1003281', ['claustral','candidat']],
+		['murcia_franc.jpg', 'Franc Murcia', 'PAS-F',  'GPAQ', '1002152', ['claustral','candidat']],
+		['meritxell_oncins.jpg', 'Meritxell Oncins', 'PAS-L', 'SSTICI', '1002883', ['candidata']],
+		['ortin_david.jpg', 'David Ortin', 'PAS-L', 'UTGAC', '1004077', ['claustral']],
+		['poncelas_oscar.jpg', 'Òscar Poncelas', 'PAS-L', 'UTGCDB', '1003909', ['candidat']],
+		['prat_susana.jpg', 'Susana Prat', 'PAS-F', 'UTGCDB', '1003015', ['claustral','candidata']],
+		['rodriguez_gloria.jpeg', 'Gloria Rodríguez', 'PAS-L', 'UTGCNTIC', '1047355', ['claustral','candidata']],
+		['rodriguez_carlos.jpg', 'Carlos Rodríguez', 'PAS-L', 'UTGCNTIC', '1003471', ['claustral','candidat']],
+		['rodriguez_jose.jpg','José A. Rodríguez','PAS-L', 'SDDSTIC','1002688',['candidat']],
+		['romero_mireia.jpg','Mireia Romero','PAS-F', 'UTGCBL', '1246783', ['candidata']],
+		['rubio_oscar.png', 'Oscar Rubio', 'PAS-F',  'UTGAC', '1004059', ['candidat']],
+		['sanchez_daniel.jpg', 'Dani Sánchez', 'PAS-L', 'UTGCNTIC', '1003230', ['candidat']],
+		['sanchez_nuria.jpg', 'Nuria Sanchez', 'PAS-F', 'UTGCBL', '1113215', ['claustral']],
+		['tallon_carme.png', 'Carme Tallón', 'PAS-L', 'UTGCNTIC', '1002334', ['claustral','candidata']],
+		['teixido_oriol.jpg', 'Oriol Teixidó', 'PAS-L', 'UTGAC', '1003257', ['claustral','candidat']],
+		['verdugo_fernando.jpg', 'Fernando Verdugo', 'PAS-L', 'UTGCNTIC', '1003789', []],
+	];
+?>
+
+<style>
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+		padding: 1rem;
+	}
+
+	.grid-item {
+		padding: 1.8rem;
+	}
+
+	.foto img {
+		width: 100%;
+	}
+
+	.nom {
+		font-size: 1.8rem;
+		font-weight: bold;
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+</style>
+
+<p class="lead">Aquests som els membres de <strong>«Per la Pública»</strong> que ens hem compromés a treballar
+    al Claustre de la UPC. L'etiqueta <span class="label label-info">candidat/a</span> indica quines persones
+	<a href="https://eleccionsclaustre.upc.edu/ca/candidatures/candidatures#d">es presenten a les eleccions
+	al Claustre 2021</a> sota la candidatura «<em>Per la Pública</em>».
+	L'etiqueta <span class="label label-success">claustral</span>,
+	a més, indica que aquella persona és membre del Claustre actualment.</p>
+
+<div class="grid-container">
+
+<?php foreach ($membres as $i) { ?>
+	<div class="grid-item">
+		<div class="foto"><img src="/img/fotos_membres/<?=$i[0]?>" alt="Foto <?=$i[1]?>" class="img-thumbnail"></div>
+		<div class="nom"><?=$i[1]?></div>
+		<div class="info"><?=$i[2]?>. <abbr title="<?=$ue[$i[3]]?>"><?=$i[3]?></abbr>.</div>
+		<div class="contacte">
+			<a title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?=$i[4]?>"><span class="glyphicon glyphicon-envelope" style="margin-right: 0.2rem; margin-top: 0.2rem;" aria-hidden="true"></span>Directori</a>
+		</div>
+		<?php foreach ($i[5] as $tag) { ?>
+			<?php $labelType = ($tag == 'claustral') ? 'success' : 'info' ?>
+                        <div class="label label-<?=$labelType?>"><?=$tag?></div>
+		<?php } ?>
+	</div>
+
+<?php } ?>
+</div>
+
+<hr>
+
+<?php require('skeleton_footer.php'); ?>
