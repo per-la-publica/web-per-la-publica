@@ -78,7 +78,7 @@
 
 <?php foreach ($membres as $i) { ?>
 	<div class="grid-item">
-		<div class="foto"><img style="width:50px; height:150px;" src="/img/fotos_membres/<?php echo $i["img"] ?>.<?php echo $i["ext"] ?>" alt="Foto <?php echo $i["nom"] ?>" /></div>
+		<div class="foto"><img style="width:50px; height:150px;" src="./img/fotos_membres/<?php echo $i["img"] ?>.<?php echo $i["ext"] ?>" alt="Foto <?php echo $i["nom"] ?>" /></div>
 		<div class="nom"><?php echo $i["nom"] ?></div>
 		<div class="info"><?php echo $i["f-l"] ?> <abbr title="<?php echo $ue[$i["ue"]] ?>"><?php echo $i["ue"] ?></abbr></div>
 		<div class="contacte"><a class="directori" title="Directori UPC" href="http://directori.upc.edu/directori/dadesPersona.jsp?id=<?php echo $i["id"] ?>" target="_blank">Directori</a></div>

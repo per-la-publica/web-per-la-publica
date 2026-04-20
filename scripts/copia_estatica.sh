@@ -11,3 +11,6 @@ echo -n "www.perlapublica.org" > static/CNAME
 
 # Pàgines que s'han de generar explícitament perquè no hi ha cap enllaç a elles.
 #wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://192.168.34.10/index-capsetes.html
+wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2013/index.html
+wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2017/index.html
+wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2021/index.html
