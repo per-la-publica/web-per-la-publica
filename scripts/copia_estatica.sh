@@ -14,3 +14,7 @@ echo -n "www.perlapublica.org" > static/CNAME
 wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2013/index.html
 wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2017/index.html
 wget --recursive --no-host-directories --page-requisites --directory-prefix=static http://0.0.0.0:8080/historic/2021/index.html
+
+# l'argument --page-requisites fa que es generi un fitxer robots.txt
+# no vàlid, que no ha d'anar a la versio estatica
+rm -f static/robots.txt
